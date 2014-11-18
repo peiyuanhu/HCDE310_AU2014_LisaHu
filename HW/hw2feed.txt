@@ -1,0 +1,41 @@
+from: Autumn Grassel
+post: "c. Print the contents of s starting from the 9th character" -- Does this mean starting from the 9th character and wrapping back around to the beginning, or just from the 9th char to the last char?
+from: Nicole Tilly
+post: Ok, I've been having some major computer issues (laptop died, sharing another comp with someone for now) so I'm way behind with all this HW0/setting up virtual environment stuff. Finally got VMware downloaded and the USB stick yesterday, but VMWare keeps telling me "Error while powering on: the file specified is not a virtual disk." Is this because my disk file is corrupt? I'm attempting to re-download the disk image atm but since it's taking a while, has anyone else encountered this issue and found the problem to be something else? Thanks!
+from: Jessica Bao
+post: I'm just wondering if the second lecture slide is updated on the canvas~Thanks~!
+from: Sean Munson
+post: If you've been waiting on an add code, you should have received it this morning -- please let me know if not!
+from: Sean Munson
+post: Because of the SVN issues, we've slightly changed our process for distributing lectures and solutions - you can update the scripts we use for that by typing the following lines in terminal: cd ~/System git pull (this may open a window, just type control-X) cd ~ After that any time you run ./getHW.sh, it will update lectures and solutions (but you may still have to right click the folder and select "Refresh" in Eclipse). Thanks to Korn and Mia for helping us catch this problem early.
+from: Candelario Peraza
+post: 3/4 way downloading and download stopped:( because the link gave out...
+from: Sami West
+post: It's asking me for my login and i'm not sure what it is. Help?
+from: Sean Munson
+post: Hi all. The Dropbox keeps cutting of our link (well below the bandwidth limitations of the account, sorry -- this was unexpected), so if you haven't been able to get a working copy of the virtual machine, please come by Sieg 423 after 10a and Christina can help you get it installed, or we will work with you in class.
+Like
+from: Nitaya Munkhong
+post: I have tried downloading the zip for Linux Mint which I was unable to extract (said it was corrupted), and tried downloading the files individually which failed when downloading hcde310a14-disk1.vmdk. Can anyone help?
+from: Sean Munson
+post: Hi Windows users -- sorry for the trouble today, but we've found a workaround. Download Workstation 11 (the technology preview) from https://communities.vmware.com/community/vmtn/workstation/vmware-workstation-technology-preview-2014 This should be freely available until January 2015, at which point it will go in the store and you can get a "free" license for a year.
+from: Tristan Shi
+post: I decided to to install everything natively on my Mac. Can someone tell me the repo so that I can get "first_program.py"?
+from: Anne Zheng
+post: Why do I have lecture 5 instead of lecture 2? As the image attached, does this means that I finished part7 in HW0? Thanks!
+from: Max Schreiber
+post: So I got everything up and running on my laptop. However, my laptop is rocking some pretty old specs and things are running really slowly and I thought I would ask if we could just install eclipse and pydev and cut VM out of the equation.
+from: Candice Juan Cai
+post: I have trouble installing VMares. It showed that it can only be installed in 64bit windows 7 or newer operating systems. However, my system is windows 8 pro with 32 bit operating system. Can anyone give me an idea about how to install it? Thank you very much
+from: Samuel Sun
+post: Hello everyone! It seems the program system runs pretty slow on Mac since the memory space is just 512 MB. Here is my way to change the memory space: first, you need to shut down your Mint System, then click the virtual machine button on the top bar, find and open the Settings menu under it, then you can find the memory settings in here and change that!
+from: Sabrina Weschler
+post: I am having trouble finding the How To document "Unix commands." Does anyone know where it is?
+from: Kendall McGinnis Avery
+post: "In Eclipse, on the left side, right-click on the "lectures" project, select Team > Update." This left side doesn't seem to exist...help?
+from: Yoanna Dosouto
+post: Hi guys, here you have a link to drive for those of you who failed to copy or copied a corrupted version of the file. https://drive.google.com/folderview?id=0B3NHAFY3OrsHN0ZfU0dGUUFkUEU&usp=sharing
+from: Sami West
+post: Can someone help me out with downloading VMWare Fusion? I'm not sure what I'm doing wrong.
+from: Chia-Fang Chung
+post: If you are still unable to get the file copied, email us and let us know whether you are using Mac or Windows, we'll try to pass the usb around.

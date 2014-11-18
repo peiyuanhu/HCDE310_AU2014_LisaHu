@@ -1,0 +1,4919 @@
+{
+  "data": [
+    {
+      "id": "1539631376270810_1554907164743231", 
+      "from": {
+        "id": "10152590325121676", 
+        "name": "Nitaya Munkhong"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Has anyone had the problem where you are unable to scroll in the workstation? Let me know if you found a solution!", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1554907164743231"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1554907164743231"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-21T17:03:24+0000", 
+      "updated_time": "2014-10-21T18:00:08+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1554922798075001", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "I'm sorry, I looked this up last night and then got distracted before I posted!\n\nThis blog post and screenshots look a lot like what was happening on your machine: http://blog.brunobraga.net/anyone-annoyed-by-the-eclipse-scrollbars-issue-in-ubuntu-11-04/\n\nSo it looks like it is worth trying entering:\n\necho “export LIBOVERLAY_SCROLLBAR=0″ >> /etc/X11/Xsession.d/80overlayscrollbars\n\nat terminal (one line), and then logging out and back back.", 
+            "can_remove": true, 
+            "created_time": "2014-10-21T18:00:08+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTkRreU1qYzVPREEzTlRBd01Ub3hOREV6T1RFME5EQTRPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTkRreU1qYzVPREEzTlRBd01Ub3hOREV6T1RFME5EQTRPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1554468618120419", 
+      "from": {
+        "id": "1392588804349451", 
+        "name": "Samuel Marks"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Can someone tell me what the function is_field does, or give me an example of how it would be used?  Thanks!", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1554468618120419"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1554468618120419"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-20T18:49:49+0000", 
+      "updated_time": "2014-10-20T22:56:48+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1554470748120206", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "You can use is_field to test whether a line starts with a given bit of text, e.g., \"post:\", \"comment:\" or \"from:\" (the different \"fields\"). Note that it is case sensitive.", 
+            "can_remove": true, 
+            "created_time": "2014-10-20T18:57:52+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1554472491453365", 
+            "from": {
+              "id": "1392588804349451", 
+              "name": "Samuel Marks"
+            }, 
+            "message": "so would I manually type the field I'm testing against as field_name, and then send the function the first item in the string as s? Then would I use that call in an if statement that is dependent on the boolean value of the return value?", 
+            "can_remove": true, 
+            "created_time": "2014-10-20T19:03:25+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1554473461453268", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "This will work, though you are doing some extra work if you are passing it just the first item (note the line if \"s[:len(field_name)] == field_name:\")", 
+            "can_remove": true, 
+            "created_time": "2014-10-20T19:07:19+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1554475561453058", 
+            "from": {
+              "id": "1392588804349451", 
+              "name": "Samuel Marks"
+            }, 
+            "message": "I'm not sure I follow.  If I pass it an entire line will it compare every string with the same amount of characters as the field_name to the actual field_name?", 
+            "can_remove": true, 
+            "created_time": "2014-10-20T19:16:00+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1554475741453040", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "yes", 
+            "can_remove": true, 
+            "created_time": "2014-10-20T19:16:45+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1554477194786228", 
+            "from": {
+              "id": "1392588804349451", 
+              "name": "Samuel Marks"
+            }, 
+            "message": "Ok thanks!  I think I'll need to catch up with you in class today.  I appreciate it!", 
+            "can_remove": true, 
+            "created_time": "2014-10-20T19:23:18+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1554538691446745", 
+            "from": {
+              "id": "857971260894845", 
+              "name": "Tristan Shi"
+            }, 
+            "message": "Sean, please consider modify this function to \"return s.startswith(field_name)\", which is more elegant and easier to comprehend.", 
+            "message_tags": [
+              {
+                "id": "214500245", 
+                "name": "Sean", 
+                "type": "user", 
+                "offset": 0, 
+                "length": 4
+              }
+            ], 
+            "can_remove": true, 
+            "created_time": "2014-10-20T22:38:21+0000", 
+            "like_count": 1, 
+            "user_likes": true
+          }, 
+          {
+            "id": "1554541684779779", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Tristan - pedagogically, it's sometimes advantageous to limit example code to methods that we've discussed in class.", 
+            "message_tags": [
+              {
+                "id": "857971260894845", 
+                "name": "Tristan", 
+                "type": "user", 
+                "offset": 0, 
+                "length": 7
+              }
+            ], 
+            "can_remove": true, 
+            "created_time": "2014-10-20T22:40:34+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1554544204779527", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "(but I appreciate sharing other ways to accomplish the same)", 
+            "can_remove": true, 
+            "created_time": "2014-10-20T22:56:48+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTkRVME5ESXdORGMzT1RVeU56b3hOREV6T0RRMU9EQTRPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTkRRM01EYzBPREV5TURJd05qb3hOREV6T0RNeE5EY3lPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1554452284788719", 
+      "from": {
+        "id": "10152112330778233", 
+        "name": "Sabrina Weschler"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "I thought the P1: Adding value to data homework was due before class today and I was trying to submit it but it gives no option on canvas to \"submit.\" Is the homework actually due next week?", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1554452284788719"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1554452284788719"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-20T17:51:07+0000", 
+      "updated_time": "2014-10-20T18:51:49+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1554454304788517", 
+            "from": {
+              "id": "10154641971405403", 
+              "name": "Korn Toongtong"
+            }, 
+            "message": "Its due on the 27th :)", 
+            "can_remove": true, 
+            "created_time": "2014-10-20T17:59:41+0000", 
+            "like_count": 2, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1554467084787239", 
+            "from": {
+              "id": "795750010470360", 
+              "name": "Kirk Lestelle"
+            }, 
+            "message": "Glad to see I wasn't the only one who just realized this haha.", 
+            "can_remove": true, 
+            "created_time": "2014-10-20T18:43:07+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1554469174787030", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Sabrina - thanks, fixed! (and actually due next week)", 
+            "message_tags": [
+              {
+                "id": "10152112330778233", 
+                "name": "Sabrina", 
+                "type": "user", 
+                "offset": 0, 
+                "length": 7
+              }
+            ], 
+            "can_remove": true, 
+            "created_time": "2014-10-20T18:51:49+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTkRRMk9URTNORGM0TnpBek1Eb3hOREV6T0RNeE1UQTVPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTkRRMU5ETXdORGM0T0RVeE56b3hOREV6T0RJM09UZ3hPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1554033168163964", 
+      "from": {
+        "id": "10203786373205623", 
+        "name": "Kendall McGinnis Avery"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "I'm having an issue creating the dinosaurs dictionary in part 6 where it includes the other two dictionaries. Any help on adding dictionaries together (or guidance if this is totally the wrong direction)?", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1554033168163964"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1554033168163964"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-19T22:24:12+0000", 
+      "updated_time": "2014-10-19T22:48:26+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "795750010470360", 
+            "name": "Kirk Lestelle"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "Nzk1NzUwMDEwNDcwMzYw", 
+            "before": "Nzk1NzUwMDEwNDcwMzYw"
+          }
+        }
+      }, 
+      "comments": {
+        "data": [
+          {
+            "id": "1554036464830301", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "One thing that may help here is to remember that the value for a dictionary item can be any other type - a list, a string, an integer, or another dictionary.", 
+            "can_remove": true, 
+            "created_time": "2014-10-19T22:38:11+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1554039448163336", 
+            "from": {
+              "id": "857971260894845", 
+              "name": "Tristan Shi"
+            }, 
+            "message": "One tip is that the default value of the get method is not limited to string/int/float etc. Am I saying too much? lol", 
+            "can_remove": true, 
+            "created_time": "2014-10-19T22:48:26+0000", 
+            "like_count": 2, 
+            "user_likes": true
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTkRBek9UUTBPREUyTXpNek5qb3hOREV6TnpVNE9UQTJPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTkRBek5qUTJORGd6TURNd01Ub3hOREV6TnpVNE1qa3hPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1553319531568661", 
+      "from": {
+        "id": "10203528654643359", 
+        "name": "Keting Cen"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "I have a question for #5 from hw4-exercises. When we save the dictionary to a CSV file, should we manually create a blank CSV file first, then open it, then write into it or should we create the file as part of the code we write? Thanks!", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1553319531568661"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1553319531568661"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-18T17:37:29+0000", 
+      "updated_time": "2014-10-19T22:39:45+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1553331978234083", 
+            "from": {
+              "id": "744156685631736", 
+              "name": "Kevin Huynh"
+            }, 
+            "message": "I think we should create the file as part of the code. I think whether or not the CSV file exists, if we write into a file python will create the file if it doesn't exist.", 
+            "can_remove": true, 
+            "created_time": "2014-10-18T18:24:30+0000", 
+            "like_count": 3, 
+            "user_likes": true
+          }, 
+          {
+            "id": "1553335091567105", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Yup - if you ask Python to open a file that does not exist for writing, it will create it.", 
+            "can_remove": true, 
+            "created_time": "2014-10-18T18:34:17+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1554035908163690", 
+            "from": {
+              "id": "10203528654643359", 
+              "name": "Keting Cen"
+            }, 
+            "message": "Thanks Kevin Huynh and Sean Munson ! Since we are not given an example of output for #5. Do we need a line break between each key and value? I attach my output here. Is this the expected output?", 
+            "message_tags": [
+              {
+                "id": "744156685631736", 
+                "name": "Kevin Huynh", 
+                "type": "user", 
+                "offset": 7, 
+                "length": 11
+              }, 
+              {
+                "id": "214500245", 
+                "name": "Sean Munson", 
+                "type": "user", 
+                "offset": 23, 
+                "length": 11
+              }
+            ], 
+            "can_remove": true, 
+            "created_time": "2014-10-19T22:35:16+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1554036708163610", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Hi - there should be line breaks between each entry, but not between the keys and values in each pair.\n\ne.g.,\na,1\nb,2\nc,3", 
+            "can_remove": true, 
+            "created_time": "2014-10-19T22:39:45+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTkRBek5qY3dPREUyTXpZeE1Eb3hOREV6TnpVNE16ZzFPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTXpNek1UazNPREl6TkRBNE16b3hOREV6TmpVMk5qY3dPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1552522894981658", 
+      "from": {
+        "id": "548730186640", 
+        "name": "Chia-Fang Chung"
+      }, 
+      "to": {
+        "data": [
+          {
+            "id": "809402832452703", 
+            "name": "Jessica Bao"
+          }, 
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Follow up on the Assembla trial expiration problem: \nIt looks like Assembla might require some of you to choose a professional plan after the trial expires. If that happens, you can email support@assembla.com and tell them you want to use the free repository plan.\n\nThanks Jessica for reporting the issue.", 
+      "message_tags": {
+        "273": [
+          {
+            "id": "809402832452703", 
+            "name": "Jessica", 
+            "type": "user", 
+            "offset": 273, 
+            "length": 7
+          }
+        ]
+      }, 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1552522894981658"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1552522894981658"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-16T21:50:59+0000", 
+      "updated_time": "2014-10-16T21:50:59+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "695801773849330", 
+            "name": "Daniel Aldridge"
+          }, 
+          {
+            "id": "10103486749033888", 
+            "name": "John A. Castro"
+          }, 
+          {
+            "id": "705958719490280", 
+            "name": "Xiaochen Yu"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "NzA1OTU4NzE5NDkwMjgw", 
+            "before": "Njk1ODAxNzczODQ5MzMw"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1552417694992178", 
+      "from": {
+        "id": "860888250596380", 
+        "name": "Lisa Hu"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Hey, is it possible to get the list of API provided in class yesterday? I found it helpful brainstorming for project ideas :)", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1552417694992178"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1552417694992178"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-16T15:59:19+0000", 
+      "updated_time": "2014-10-16T16:47:03+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "695801773849330", 
+            "name": "Daniel Aldridge"
+          }, 
+          {
+            "id": "10204021511211259", 
+            "name": "Jennifer Jenks"
+          }, 
+          {
+            "id": "1302357724", 
+            "name": "Quynh Huynh"
+          }, 
+          {
+            "id": "795750010470360", 
+            "name": "Kirk Lestelle"
+          }, 
+          {
+            "id": "10204449718108114", 
+            "name": "Candelario Peraza"
+          }, 
+          {
+            "id": "10203528654643359", 
+            "name": "Keting Cen"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MTAyMDM1Mjg2NTQ2NDMzNTk=", 
+            "before": "Njk1ODAxNzczODQ5MzMw"
+          }
+        }
+      }, 
+      "comments": {
+        "data": [
+          {
+            "id": "1552432471657367", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "The list we (the instructors) built is at https://canvas.uw.edu/courses/916351/pages/List%20of%20APIs?titleize=0.\n\nI've also created another page where you can share the ones you found for P0 (or otherwise) and any comments on them at https://canvas.uw.edu/courses/916351/pages/list-of-apis-you-found.", 
+            "can_remove": true, 
+            "created_time": "2014-10-16T16:47:03+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTWpRek1qUTNNVFkxTnpNMk56b3hOREV6TkRjNE1ESXpPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTWpRek1qUTNNVFkxTnpNMk56b3hOREV6TkRjNE1ESXpPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1552136738353607", 
+      "from": {
+        "id": "705958719490280", 
+        "name": "Xiaochen Yu"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "I tried to commit a file and this happened. Any ideas?", 
+      "picture": "https://scontent-b.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/s130x130/1901206_711905372228948_7335737199654109774_n.jpg?oh=71fb30c5e4b1ddee0c764cd6b28537a7&oe=54AFA5A3", 
+      "link": "https://www.facebook.com/photo.php?fbid=711905372228948&set=gm.1552136738353607&type=1&relevant_count=1", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yz/r/StEh3RhPvjk.gif", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1552136738353607"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1552136738353607"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "photo", 
+      "object_id": "711905372228948", 
+      "application": {
+        "name": "Facebook for Android", 
+        "namespace": "fbandroid", 
+        "id": "350685531728"
+      }, 
+      "created_time": "2014-10-16T05:39:05+0000", 
+      "updated_time": "2014-10-16T05:44:38+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1552137118353569", 
+            "from": {
+              "id": "10154641971405403", 
+              "name": "Korn Toongtong"
+            }, 
+            "message": "Try right clicking on the 'Homeworks' folder instead of the file, then going to team > commit", 
+            "can_remove": true, 
+            "created_time": "2014-10-16T05:42:05+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1552137441686870", 
+            "from": {
+              "id": "10152112330778233", 
+              "name": "Sabrina Weschler"
+            }, 
+            "message": "That happened to me too! You have to enter the URL for the Assembla again.", 
+            "can_remove": true, 
+            "created_time": "2014-10-16T05:43:52+0000", 
+            "like_count": 2, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1552137488353532", 
+            "from": {
+              "id": "10152112330778233", 
+              "name": "Sabrina Weschler"
+            }, 
+            "message": "So pretty much have to re-connect to the Assembla account because it's not connected at all right now.", 
+            "can_remove": true, 
+            "created_time": "2014-10-16T05:44:15+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1552137681686846", 
+            "from": {
+              "id": "705958719490280", 
+              "name": "Xiaochen Yu"
+            }, 
+            "message": "Thank you guys! :3", 
+            "can_remove": true, 
+            "created_time": "2014-10-16T05:44:38+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTWpFek56WTRNVFk0TmpnME5qb3hOREV6TkRNNE1qYzRPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTWpFek56RXhPRE0xTXpVMk9Ub3hOREV6TkRNNE1USTFPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1552038948363386", 
+      "from": {
+        "id": "214500245", 
+        "name": "Sean Munson"
+      }, 
+      "to": {
+        "data": [
+          {
+            "id": "10203215432530357", 
+            "name": "Tanner Page"
+          }, 
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "For HW4, exercise 4: I messed up in the screenshot; there should not be spaces (corrected one below). Since this was my mistake, it's fine whether you have spaces (as in the screenshot in the PDF) or not (as in the screenshot below).\n\nThanks Tanner for asking.", 
+      "message_tags": {
+        "242": [
+          {
+            "id": "10203215432530357", 
+            "name": "Tanner", 
+            "type": "user", 
+            "offset": 242, 
+            "length": 6
+          }
+        ]
+      }, 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1552038948363386"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1552038948363386"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-15T22:18:36+0000", 
+      "updated_time": "2014-10-15T22:18:36+0000"
+    }, 
+    {
+      "id": "1539631376270810_1552026681697946", 
+      "from": {
+        "id": "10152460350763106", 
+        "name": "Kyle Nesburg"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "A couple of issues just cropped up. First, I'm suddenly no longer able to see what I type in the terminal window. I tried to see if maybe text was set to black, but I am unable to change those settings as they appear to be locked. Two, Eclipse seems to have gotten rid of everything I updated from Monday (HW4 and lectures). I've tried blindly getting it back through terminal but that hasn't worked. Any thoughts?", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1552026681697946"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1552026681697946"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-15T21:22:47+0000", 
+      "updated_time": "2014-10-15T21:58:33+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1552034375030510", 
+            "from": {
+              "id": "10152460350763106", 
+              "name": "Kyle Nesburg"
+            }, 
+            "message": "After a little freakout and a restart, it looks like its back in order. For now...", 
+            "can_remove": true, 
+            "created_time": "2014-10-15T21:55:11+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1552035005030447", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "okay, good -- if it happens again, we can look in class and office hours", 
+            "can_remove": true, 
+            "created_time": "2014-10-15T21:58:33+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTWpBek5UQXdOVEF6TURRME56b3hOREV6TkRFd016RXpPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTWpBek5ETTNOVEF6TURVeE1Eb3hOREV6TkRFd01URXhPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1551996121701002", 
+      "from": {
+        "id": "809402832452703", 
+        "name": "Jessica Bao"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Do we have a midterm in this class?", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1551996121701002"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1551996121701002"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-15T19:16:13+0000", 
+      "updated_time": "2014-10-15T19:59:18+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1551998841700730", 
+            "from": {
+              "id": "856262634395183", 
+              "name": "Geraldine Ragsac"
+            }, 
+            "message": "Hi Jessica! According to the syllabus there is an exam tentatively scheduled for Nov. 17.\n\nhttp://www.smunson.com/teaching/hcde310/a14/ (scroll to the bottom)", 
+            "can_remove": true, 
+            "created_time": "2014-10-15T19:27:43+0000", 
+            "like_count": 3, 
+            "user_likes": true
+          }, 
+          {
+            "id": "1552007991699815", 
+            "from": {
+              "id": "809402832452703", 
+              "name": "Jessica Bao"
+            }, 
+            "message": "Thanks Geraldine!", 
+            "can_remove": true, 
+            "created_time": "2014-10-15T19:59:18+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTWpBd056azVNVFk1T1RneE5Ub3hOREV6TkRBek1UVTRPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTVRrNU9EZzBNVGN3TURjek1Eb3hOREV6TkRBeE1qWXpPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1551702651730349", 
+      "from": {
+        "id": "10201821807987293", 
+        "name": "Perry Lin Meas"
+      }, 
+      "to": {
+        "data": [
+          {
+            "id": "10205189180514923", 
+            "name": "Stephanie Grose"
+          }, 
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "QUESTION: What is the explanation behind the random 8 for the output for part 4 of the homework. I AM CURIOUS. So is Stephanie Grose.", 
+      "message_tags": {
+        "117": [
+          {
+            "id": "10205189180514923", 
+            "name": "Stephanie Grose", 
+            "type": "user", 
+            "offset": 117, 
+            "length": 15
+          }
+        ]
+      }, 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1551702651730349"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1551702651730349"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-14T23:31:37+0000", 
+      "updated_time": "2014-10-15T05:16:04+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1551702738397007", 
+            "from": {
+              "id": "10201821807987293", 
+              "name": "Perry Lin Meas"
+            }, 
+            "message": "We must know.", 
+            "can_remove": true, 
+            "created_time": "2014-10-14T23:31:55+0000", 
+            "like_count": 2, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1551708248396456", 
+            "from": {
+              "id": "10205189180514923", 
+              "name": "Stephanie Grose"
+            }, 
+            "message": "I have a 3 at the top, and so does Perry, but in the document it's an 8.", 
+            "can_remove": true, 
+            "created_time": "2014-10-14T23:49:58+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1551709658396315", 
+            "from": {
+              "id": "10201821807987293", 
+              "name": "Perry Lin Meas"
+            }, 
+            "message": "We are also getting \"- -\" as a word, which shouldn't be the case.", 
+            "can_remove": true, 
+            "created_time": "2014-10-14T23:55:13+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1551711725062775", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "I looked back at the code; I apparently did not have enough coffee when I wrote the solutions file.\n\nI added a \"-\" to stripWordPunctuation in my solutions but didn't put that change back in the HW file. This difference does not matter for your homework - you can remove \"-\" or not.", 
+            "can_remove": true, 
+            "created_time": "2014-10-15T00:05:06+0000", 
+            "like_count": 4, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1551712821729332", 
+            "from": {
+              "id": "10201821807987293", 
+              "name": "Perry Lin Meas"
+            }, 
+            "message": "Thanks Sean!\n\nhttps://www.youtube.com/watch?v=HmoNaTSXPMA", 
+            "can_remove": true, 
+            "created_time": "2014-10-15T00:11:13+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1551775971723017", 
+            "from": {
+              "id": "857971260894845", 
+              "name": "Tristan Shi"
+            }, 
+            "message": "FYI, I imported the string module and used its constant \"string.punctuation\" instead of the provided string of punctuations. Also, empty strings being a word can be eliminated by simply adding a if statement.", 
+            "can_remove": true, 
+            "created_time": "2014-10-15T05:16:04+0000", 
+            "like_count": 1, 
+            "user_likes": true
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTVRjM05UazNNVGN5TXpBeE56b3hOREV6TXpVd01UWTBPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTVRjd01qY3pPRE01TnpBd056b3hOREV6TXpJNU5URTFPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1551263415107606", 
+      "from": {
+        "id": "10205189180514923", 
+        "name": "Stephanie Grose"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Hey everyone,\n\nI've spent quite a bit of time trying to figure out Part 3 of HW3, and am kinda going in circles. I feel like I just need a nudge in the right direction, so if someone could point me towards which slide deck/slides they used to help them get the strategy to solve that part it would be super helpful! Thanks!", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1551263415107606"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1551263415107606"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-14T03:20:05+0000", 
+      "updated_time": "2014-10-15T03:24:48+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "695801773849330", 
+            "name": "Daniel Aldridge"
+          }, 
+          {
+            "id": "10201651549410551", 
+            "name": "Sami West"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MTAyMDE2NTE1NDk0MTA1NTE=", 
+            "before": "Njk1ODAxNzczODQ5MzMw"
+          }
+        }
+      }, 
+      "comments": {
+        "data": [
+          {
+            "id": "1551266735107274", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Hi Stephanie - For counting, we can assume that each time a name appears after \"from:\", they posted or commented, which saves us some work. From part 2, you're already able to isolate the names of posters/commenters, so the next challenge is just counting them up.\n\nIt may help to think of each poster as similar to a \"word\" and to count their post frequencies similar to counting word frequencies (slides at the end of the Dictionaries lecture, around #97). Unlike counting the number of times a word appears, though, we want to count the number of times a poster appears.", 
+            "can_remove": true, 
+            "created_time": "2014-10-14T03:35:58+0000", 
+            "like_count": 2, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1551751838392097", 
+            "from": {
+              "id": "10201651549410551", 
+              "name": "Sami West"
+            }, 
+            "message": "For some reason my code prints the name on one line and the count on the next line. Do you have any idea why that may be?", 
+            "can_remove": true, 
+            "created_time": "2014-10-15T03:21:25+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1551752641725350", 
+            "from": {
+              "id": "10201651549410551", 
+              "name": "Sami West"
+            }, 
+            "message": "Nevermind, I think I forgot to use strip()! :)", 
+            "can_remove": true, 
+            "created_time": "2014-10-15T03:24:48+0000", 
+            "like_count": 2, 
+            "user_likes": true
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTVRjMU1qWTBNVGN5TlRNMU1Eb3hOREV6TXpRek5EZzRPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTVRJMk5qY3pOVEV3TnpJM05Eb3hOREV6TWpVM056VTRPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1551638138403467", 
+      "from": {
+        "id": "10152398220676476", 
+        "name": "Nicole Tilly"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Is anyone else having issues with Eclipse dumping all of their open files/projects whenever it's been closed for a while? I'm extremely frustrated with having to reset everything over and over.\n\nSean, if you see this  - yes, it happened again today. Any other ideas?\n\nThanks", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1551638138403467"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1551638138403467"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-14T19:37:21+0000", 
+      "updated_time": "2014-10-14T20:29:05+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1551656028401678", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "I spent a while reading on this last night, and nothing clearly jumped out as the likely culprit. \n\nOne suggestion that came up on Stack Overflow (http://stackoverflow.com/questions/7389898/eclipse-all-my-projects-disappeared-from-project-explorer) was to check to see that all of your projects are selected:\n\n\"When this happened to me I had somehow set the Project Explorer to only display Working Sets. I had none, so nothing was displayed.\n\nTo fix it, I went to the Project Explorer View Menu (next to the Minimize and Maximize icons in the Project Explorer), Top Level Elements -> Projects.\"\n\nIf it's still giving you trouble, Chia-Fang Chung or I might replace your virtual machine tomorrow in class (we should be able to do most of it during the group exercise, so hopefully it will not take more of your time) with a clean install.", 
+            "message_tags": [
+              {
+                "id": "548730186640", 
+                "name": "Chia-Fang Chung", 
+                "type": "user", 
+                "offset": 631, 
+                "length": 15
+              }
+            ], 
+            "can_remove": true, 
+            "created_time": "2014-10-14T20:29:05+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTVRZMU5qQXlPRFF3TVRZM09Eb3hOREV6TXpFNE5UUTFPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTVRZMU5qQXlPRFF3TVRZM09Eb3hOREV6TXpFNE5UUTFPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1551628918404389", 
+      "from": {
+        "id": "214500245", 
+        "name": "Sean Munson"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Just a heads up - for those of you with overlapping classes, tomorrow's class is a good one to be on time for, since we have an in-class activity.", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1551628918404389"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1551628918404389"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-14T19:05:36+0000", 
+      "updated_time": "2014-10-14T19:05:36+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "10201651549410551", 
+            "name": "Sami West"
+          }, 
+          {
+            "id": "10154641971405403", 
+            "name": "Korn Toongtong"
+          }, 
+          {
+            "id": "695801773849330", 
+            "name": "Daniel Aldridge"
+          }, 
+          {
+            "id": "548730186640", 
+            "name": "Chia-Fang Chung"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "NTQ4NzMwMTg2NjQw", 
+            "before": "MTAyMDE2NTE1NDk0MTA1NTE="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1549455011955113", 
+      "from": {
+        "id": "548730186640", 
+        "name": "Chia-Fang Chung"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Hi, some of you chose the free trial of the Assembla professional plan, instead of a free repository plan, when you created an Assembla account earlier. If you did, you might find the trial is expiring soon. \nTo cancel the plan and prevent from future charges, please go to Account page by clicking your name at the top-right menu bar->Account. Then click on \"Cancel Your Plan\" at the bottom of the Account page. In the following pages, you'll need to select a reason for canceling the plan and leave some comments (It won't let you cancel if you don't input anything). After that, you should be able to cancel the plan and continue to use the free repository.", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1549455011955113"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1549455011955113"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-10T06:19:06+0000", 
+      "updated_time": "2014-10-13T04:15:29+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "613461108762964", 
+            "name": "Samuel Sun"
+          }, 
+          {
+            "id": "695801773849330", 
+            "name": "Daniel Aldridge"
+          }, 
+          {
+            "id": "705958719490280", 
+            "name": "Xiaochen Yu"
+          }, 
+          {
+            "id": "10152040347570770", 
+            "name": "Ashley Donaldson"
+          }, 
+          {
+            "id": "214500245", 
+            "name": "Sean Munson"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MjE0NTAwMjQ1", 
+            "before": "NjEzNDYxMTA4NzYyOTY0"
+          }
+        }
+      }, 
+      "comments": {
+        "data": [
+          {
+            "id": "1550374068529874", 
+            "from": {
+              "id": "809402832452703", 
+              "name": "Jessica Bao"
+            }, 
+            "message": "Hi Chia-Fang, this is how it looks like on my screen and I can't find the place to cancel it. Thanks.", 
+            "can_remove": true, 
+            "created_time": "2014-10-12T06:26:56+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1550375461863068", 
+            "from": {
+              "id": "548730186640", 
+              "name": "Chia-Fang Chung"
+            }, 
+            "message": "Hi Jessica, that means you haven't subscribed to a plan. It should revert back to the free repository plan once the trial is over. Let me know if itdoesn't and we can work on something else.", 
+            "can_remove": true, 
+            "created_time": "2014-10-12T06:32:19+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1550375995196348", 
+            "from": {
+              "id": "809402832452703", 
+              "name": "Jessica Bao"
+            }, 
+            "message": "Thanks Christina~!", 
+            "can_remove": true, 
+            "created_time": "2014-10-12T06:34:32+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1550793438487937", 
+            "from": {
+              "id": "613461108762964", 
+              "name": "Samuel Sun"
+            }, 
+            "message": "这个太赞了！帮了我个大忙～", 
+            "can_remove": true, 
+            "created_time": "2014-10-13T04:15:29+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTURjNU16UXpPRFE0Tnprek56b3hOREV6TVRjek56STVPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUxTURNM05EQTJPRFV5T1RnM05Eb3hOREV6TURrMU1qRTJPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1549827995251148", 
+      "from": {
+        "id": "613461108762964", 
+        "name": "Samuel Sun"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "I just want to know what will happen after 3 days...", 
+      "picture": "https://scontent-a.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/s130x130/1920402_616188468490228_4108625772694292458_n.jpg?oh=7eb05b7c37fc89a58408978d07d71f97&oe=54AADEB4", 
+      "link": "https://www.facebook.com/photo.php?fbid=616188468490228&set=gm.1549827995251148&type=1&relevant_count=1", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yz/r/StEh3RhPvjk.gif", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1549827995251148"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1549827995251148"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "photo", 
+      "object_id": "616188468490228", 
+      "application": {
+        "name": "Facebook for iPhone", 
+        "namespace": "fbiphone", 
+        "id": "6628568379"
+      }, 
+      "created_time": "2014-10-11T04:07:04+0000", 
+      "updated_time": "2014-10-11T05:33:33+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1549836161916998", 
+            "from": {
+              "id": "794903197199017", 
+              "name": "Yoanna Dosouto"
+            }, 
+            "message": "Hi Samuel, Chia posted something for those who sellected the trial period, scroll down a little bit and u will see it.", 
+            "can_remove": true, 
+            "created_time": "2014-10-11T04:40:26+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1549865691914045", 
+            "from": {
+              "id": "613461108762964", 
+              "name": "Samuel Sun"
+            }, 
+            "message": "great！thanks！", 
+            "can_remove": true, 
+            "created_time": "2014-10-11T05:33:33+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwT1RnMk5UWTVNVGt4TkRBME5Ub3hOREV6TURBMU5qRXpPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwT1Rnek5qRTJNVGt4TmprNU9Eb3hOREV6TURBeU5ESTJPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1549737648593516", 
+      "from": {
+        "id": "10152040347570770", 
+        "name": "Ashley Donaldson"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "In case any of you didn't see this on the HCDE peeps page!", 
+      "caption": "Attachment UnavailableThis attachment may have been removed or the person who shared it may not have permission to share it with you.", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1549737648593516"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1549737648593516"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-10T21:58:14+0000", 
+      "updated_time": "2014-10-10T21:58:14+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "10204021511211259", 
+            "name": "Jennifer Jenks"
+          }, 
+          {
+            "id": "214500245", 
+            "name": "Sean Munson"
+          }, 
+          {
+            "id": "1302357724", 
+            "name": "Quynh Huynh"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MTMwMjM1NzcyNA==", 
+            "before": "MTAyMDQwMjE1MTEyMTEyNTk="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1548996618667619", 
+      "from": {
+        "id": "613461108762964", 
+        "name": "Samuel Sun"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "hw3-feedprocessor.py\nI have a question about the space number. All of my other word's numbers are as the same as the PDFs' except the number of space. Why? Is it wrong?", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548996618667619"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548996618667619"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-09T05:36:13+0000", 
+      "updated_time": "2014-10-09T05:43:16+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "695801773849330", 
+            "name": "Daniel Aldridge"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "Njk1ODAxNzczODQ5MzMw", 
+            "before": "Njk1ODAxNzczODQ5MzMw"
+          }
+        }
+      }, 
+      "comments": {
+        "data": [
+          {
+            "id": "1548996702000944", 
+            "from": {
+              "id": "613461108762964", 
+              "name": "Samuel Sun"
+            }, 
+            "message": "It is part4 question", 
+            "can_remove": true, 
+            "created_time": "2014-10-09T05:36:32+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1548997305334217", 
+            "from": {
+              "id": "548730186640", 
+              "name": "Chia-Fang Chung"
+            }, 
+            "message": "That's okay. Depending on when you do the strip, that space will have different numbers. If your other words' number is correct, then don't worry about that.", 
+            "can_remove": true, 
+            "created_time": "2014-10-09T05:39:07+0000", 
+            "like_count": 1, 
+            "user_likes": true
+          }, 
+          {
+            "id": "1548998225334125", 
+            "from": {
+              "id": "613461108762964", 
+              "name": "Samuel Sun"
+            }, 
+            "message": "awesome, thank you very much!", 
+            "can_remove": true, 
+            "created_time": "2014-10-09T05:43:16+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwT0RrNU9ESXlOVE16TkRFeU5Ub3hOREV5T0RNek16azJPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwT0RrNU5qY3dNakF3TURrME5Eb3hOREV5T0RNeU9Ua3lPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1548942558673025", 
+      "from": {
+        "id": "697532030294638", 
+        "name": "Autumn Grassel"
+      }, 
+      "to": {
+        "data": [
+          {
+            "id": "214500245", 
+            "name": "Sean Munson"
+          }, 
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "If you haven't already clicked the worst cat link that Sean put on our HW3 turn-in, click it now. Unless you hate laughing. If you hate laughing don't click it.", 
+      "message_tags": {
+        "55": [
+          {
+            "id": "214500245", 
+            "name": "Sean", 
+            "type": "user", 
+            "offset": 55, 
+            "length": 4
+          }
+        ]
+      }, 
+      "caption": "Attachment UnavailableThis attachment may have been removed or the person who shared it may not have permission to share it with you.", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548942558673025"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548942558673025"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-09T02:29:02+0000", 
+      "updated_time": "2014-10-09T02:29:02+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "695801773849330", 
+            "name": "Daniel Aldridge"
+          }, 
+          {
+            "id": "10152460350763106", 
+            "name": "Kyle Nesburg"
+          }, 
+          {
+            "id": "10204021511211259", 
+            "name": "Jennifer Jenks"
+          }, 
+          {
+            "id": "383619521785178", 
+            "name": "Max Schreiber"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MzgzNjE5NTIxNzg1MTc4", 
+            "before": "Njk1ODAxNzczODQ5MzMw"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1548910888676192", 
+      "from": {
+        "id": "214500245", 
+        "name": "Sean Munson"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "HW3 clarification: In exercise 8, the PDF has an entry for hippo but your output won't.", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548910888676192"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548910888676192"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-09T00:31:45+0000", 
+      "updated_time": "2014-10-09T00:31:45+0000"
+    }, 
+    {
+      "id": "1539631376270810_1548563525377595", 
+      "from": {
+        "id": "10201651549410551", 
+        "name": "Sami West"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "For HW 2- Part 3 I'm getting the line count and the word count correct, but my character count is off.", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548563525377595"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548563525377595"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-08T06:07:18+0000", 
+      "updated_time": "2014-10-08T06:31:22+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1548564035377544", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "What are you getting on the test file -- are you over? Under?", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T06:09:26+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1548564472044167", 
+            "from": {
+              "id": "10201651549410551", 
+              "name": "Sami West"
+            }, 
+            "message": "I'm getting 3,936 characters", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T06:11:43+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1548564645377483", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "on test.txt?", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T06:12:20+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1548564792044135", 
+            "from": {
+              "id": "10201651549410551", 
+              "name": "Sami West"
+            }, 
+            "message": "oh, sorry! it's 16.", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T06:13:15+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1548565508710730", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "No problem, just easier to debug with the smaller file :-)\n\nI'm pretty sure that your program is counting the characters with spaces removed (e.g., by splitting each line into words and adding characters in each line). There are two spaces and three lines breaks that account for the missing five characters.", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T06:17:23+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1548567215377226", 
+            "from": {
+              "id": "10201651549410551", 
+              "name": "Sami West"
+            }, 
+            "message": "Oh! That helped a lot! I figured it out, thank you. :)", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T06:26:29+0000", 
+            "like_count": 1, 
+            "user_likes": true
+          }, 
+          {
+            "id": "1548567908710490", 
+            "from": {
+              "id": "10103457048783428", 
+              "name": "Wei Kong"
+            }, 
+            "message": "Wait just to check, are we supposed to count new line characters in our final output or no?", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T06:29:08+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1548568392043775", 
+            "from": {
+              "id": "10103457048783428", 
+              "name": "Wei Kong"
+            }, 
+            "message": "Nvm, I just saw my answer on the turn in page.", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T06:30:30+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1548568585377089", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Either is okay -- 4754 if you keep them in, 4714 if you drop them. But definitely include the spaces.", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T06:31:22+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwT0RVMk9EVTROVE0zTnpBNE9Ub3hOREV5TnpRNU9EZ3lPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwT0RVMk5EQXpOVE0zTnpVME5Eb3hOREV5TnpRNE5UWTJPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1548551785378769", 
+      "from": {
+        "id": "10152470849023262", 
+        "name": "Anu Mohajerjasbi"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "can someone direct me to the slides on the find() function?", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548551785378769"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548551785378769"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-08T05:18:26+0000", 
+      "updated_time": "2014-10-08T05:37:48+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1548551892045425", 
+            "from": {
+              "id": "10152470849023262", 
+              "name": "Anu Mohajerjasbi"
+            }, 
+            "message": "i cant seem to find it", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T05:18:51+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1548552065378741", 
+            "from": {
+              "id": "857971260894845", 
+              "name": "Tristan Shi"
+            }, 
+            "message": "string.find(s, sub[, start[, end]])\nReturn the lowest index in s where the substring sub is found such that sub is wholly contained in s[start:end]. Return -1 on failure. Defaults for start and end and interpretation of negative values is the same as for slices.", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T05:19:40+0000", 
+            "like_count": 1, 
+            "user_likes": true
+          }, 
+          {
+            "id": "1548552125378735", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "https://canvas.uw.edu/courses/916351/files/28661769/, slide 27", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T05:20:04+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1548552158712065", 
+            "from": {
+              "id": "10152590325121676", 
+              "name": "Nitaya Munkhong"
+            }, 
+            "message": "its on the supplement 2 slides, slide 27!", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T05:20:13+0000", 
+            "like_count": 2, 
+            "user_likes": true
+          }, 
+          {
+            "id": "1548552382045376", 
+            "from": {
+              "id": "10152470849023262", 
+              "name": "Anu Mohajerjasbi"
+            }, 
+            "message": "thank you!", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T05:21:20+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1548554812045133", 
+            "from": {
+              "id": "10152470849023262", 
+              "name": "Anu Mohajerjasbi"
+            }, 
+            "message": "an observation: exercise 6a says case should not matter but my output suggests otherwise. i tried 'tiger' in my find function and i didnt get the 9 at the end of the loop, but when i put 'Tiger' both showed up...", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T05:35:07+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1548555332045081", 
+            "from": {
+              "id": "10152590325121676", 
+              "name": "Nitaya Munkhong"
+            }, 
+            "message": "I think it means you should write your code so that it finds tiger either way", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T05:37:00+0000", 
+            "like_count": 2, 
+            "user_likes": true
+          }, 
+          {
+            "id": "1548555475378400", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "For 6a, you should write code so that case does not matter.", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T05:37:31+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1548555512045063", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Nitaya beat me to it.", 
+            "message_tags": [
+              {
+                "id": "10152590325121676", 
+                "name": "Nitaya", 
+                "type": "user", 
+                "offset": 0, 
+                "length": 6
+              }
+            ], 
+            "can_remove": true, 
+            "created_time": "2014-10-08T05:37:48+0000", 
+            "like_count": 2, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwT0RVMU5UVXhNakEwTlRBMk16b3hOREV5TnpRMk5qWTRPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwT0RVMU1UZzVNakEwTlRReU5Ub3hOREV5TnpRMU5UTXhPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1548526805381267", 
+      "from": {
+        "id": "10201651549410551", 
+        "name": "Sami West"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "For HW 2, I'm having a hard time replacing the element of lst whose value is 3 with the value 'three'. I keep getting this error. Not sure what I'm doing wrong!", 
+      "picture": "https://scontent-a.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/s130x130/10616657_10201664402931881_5427434387793284761_n.jpg?oh=9493cb508b1b6ddd78958d7f00752842&oe=54E915D2", 
+      "link": "https://www.facebook.com/photo.php?fbid=10201664402931881&set=gm.1548526805381267&type=1&relevant_count=1", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yz/r/StEh3RhPvjk.gif", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548526805381267"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548526805381267"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "photo", 
+      "object_id": "10201664402931881", 
+      "created_time": "2014-10-08T03:19:19+0000", 
+      "updated_time": "2014-10-08T03:36:00+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1548529462047668", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Hi Sami - Python doesn't have a replace method for lists, only strings. For this exercise, you can just overwrite 3 with three (since you know its position). \n\nIf you didn't know the position, you could iterate through the list, checking whether the current item is 3 and keeping track of your position, replacing that item with \"three\" when it is equal.\n\nThere are some other ways to handle this in python that we'll cover ina  couple of weeks too.", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T03:32:34+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1548530102047604", 
+            "from": {
+              "id": "10201651549410551", 
+              "name": "Sami West"
+            }, 
+            "message": "Oh okay! Thanks.", 
+            "can_remove": true, 
+            "created_time": "2014-10-08T03:36:00+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwT0RVek1ERXdNakEwTnpZd05Eb3hOREV5TnpNNU16WXdPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwT0RVeU9UUTJNakEwTnpZMk9Eb3hOREV5TnpNNU1UVTBPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1548469215387026", 
+      "from": {
+        "id": "214500245", 
+        "name": "Sean Munson"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "While it's not yet time to pick final project ideas, this would be a fun, simple one if it didn't already exist: http://dogeweather.com/\n\n(if the doge meme is new to you: http://knowyourmeme.com/memes/doge)", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548469215387026"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548469215387026"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-07T22:50:17+0000", 
+      "updated_time": "2014-10-07T22:50:17+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "10204766902831586", 
+            "name": "Justin Woodum"
+          }, 
+          {
+            "id": "10154641971405403", 
+            "name": "Korn Toongtong"
+          }, 
+          {
+            "id": "10103486749033888", 
+            "name": "John A. Castro"
+          }, 
+          {
+            "id": "794903197199017", 
+            "name": "Yoanna Dosouto"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "Nzk0OTAzMTk3MTk5MDE3", 
+            "before": "MTAyMDQ3NjY5MDI4MzE1ODY="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1548462078721073", 
+      "from": {
+        "id": "10152040347570770", 
+        "name": "Ashley Donaldson"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "On homework3 feed processor part 3 it says to count the number of posts... do you mean the actual number of \"posts\" or do comments and such count as posts also?", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548462078721073"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548462078721073"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-07T22:18:02+0000", 
+      "updated_time": "2014-10-07T22:27:57+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1548464685387479", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Part 3 is posts and comments (\"how many times each user posted or commented (a combined count for each)\")\n\nPart 4 is just the posts (not comments)", 
+            "can_remove": true, 
+            "created_time": "2014-10-07T22:27:44+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1548464745387473", 
+            "from": {
+              "id": "10152040347570770", 
+              "name": "Ashley Donaldson"
+            }, 
+            "message": "Thanks!", 
+            "can_remove": true, 
+            "created_time": "2014-10-07T22:27:57+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwT0RRMk5EYzBOVE00TnpRM016b3hOREV5TnpJd09EYzNPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwT0RRMk5EWTROVE00TnpRM09Ub3hOREV5TnpJd09EWTBPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1548134212087193", 
+      "from": {
+        "id": "548730186640", 
+        "name": "Chia-Fang Chung"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "We'll have office hours starting from this week: Tuesday 12n-2p, and Friday 11:30a-1:20p, at Sieg 4F hallway. If you can't meet during these time slots but still need help, please email us for appointments.", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548134212087193"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548134212087193"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-07T05:44:04+0000", 
+      "updated_time": "2014-10-07T05:44:04+0000"
+    }, 
+    {
+      "id": "1539631376270810_1548130182087596", 
+      "from": {
+        "id": "860888250596380", 
+        "name": "Lisa Hu"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "How do we submit hw3 files? Canvas is asking for submitting through a text entry box..", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548130182087596"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548130182087596"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-07T05:25:42+0000", 
+      "updated_time": "2014-10-07T05:40:11+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1548133298753951", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Sorry about that Lisa, just changed it to file upload.", 
+            "message_tags": [
+              {
+                "id": "860888250596380", 
+                "name": "Lisa", 
+                "type": "user", 
+                "offset": 17, 
+                "length": 4
+              }
+            ], 
+            "can_remove": true, 
+            "created_time": "2014-10-07T05:40:11+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwT0RFek16STVPRGMxTXprMU1Ub3hOREV5TmpZd05ERXhPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwT0RFek16STVPRGMxTXprMU1Ub3hOREV5TmpZd05ERXhPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1548050222095592", 
+      "from": {
+        "id": "214500245", 
+        "name": "Sean Munson"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "For today's class challenge, if you ran both lower casing and punctuation removal, you should end up with \"the\" appearing 5798 times.", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548050222095592"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1548050222095592"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-07T00:00:23+0000", 
+      "updated_time": "2014-10-07T00:08:03+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "10154641971405403", 
+            "name": "Korn Toongtong"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MTAxNTQ2NDE5NzE0MDU0MDM=", 
+            "before": "MTAxNTQ2NDE5NzE0MDU0MDM="
+          }
+        }
+      }, 
+      "comments": {
+        "data": [
+          {
+            "id": "1548051608762120", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Which, btw, is not a very interesting result -- so it is common when doing text analysis to remove or ignore common words (\"stopwords\"). There are lots of lists available online, including http://www.ranks.nl/stopwords and http://www.lextek.com/manuals/onix/stopwords1.html.\n\nThere is also a Python package of stopwords at https://pypi.python.org/pypi/stop-words/2014.5.26", 
+            "can_remove": true, 
+            "created_time": "2014-10-07T00:08:03+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwT0RBMU1UWXdPRGMyTWpFeU1Eb3hOREV5TmpRd05EZ3pPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwT0RBMU1UWXdPRGMyTWpFeU1Eb3hOREV5TmpRd05EZ3pPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1546362135597734", 
+      "from": {
+        "id": "794903197199017", 
+        "name": "Yoanna Dosouto"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Hi guys, if you are still having some issues with performance in your Virtual Machine (I had it out of debug mode already) you may want to increase the number of processors you are using, I increased mine to 4 and is working beautifully.", 
+      "picture": "https://scontent-a.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/s130x130/10380753_793133970709273_8104295502414723457_n.jpg?oh=1502c8cee163022af9afa887c461411b&oe=54B3D6B2", 
+      "link": "https://www.facebook.com/photo.php?fbid=793133970709273&set=gm.1546362135597734&type=1&relevant_count=1", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yz/r/StEh3RhPvjk.gif", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1546362135597734"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1546362135597734"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "photo", 
+      "object_id": "793133970709273", 
+      "created_time": "2014-10-03T00:11:05+0000", 
+      "updated_time": "2014-10-06T06:40:17+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "1495095570753382", 
+            "name": "Juan Cai"
+          }, 
+          {
+            "id": "548730186640", 
+            "name": "Chia-Fang Chung"
+          }, 
+          {
+            "id": "705958719490280", 
+            "name": "Xiaochen Yu"
+          }, 
+          {
+            "id": "214500245", 
+            "name": "Sean Munson"
+          }, 
+          {
+            "id": "795750010470360", 
+            "name": "Kirk Lestelle"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "Nzk1NzUwMDEwNDcwMzYw", 
+            "before": "MTQ5NTA5NTU3MDc1MzM4Mg=="
+          }
+        }
+      }, 
+      "comments": {
+        "data": [
+          {
+            "id": "1546381398929141", 
+            "from": {
+              "id": "809402832452703", 
+              "name": "Jessica Bao"
+            }, 
+            "message": "I can't change mine. It's grey.", 
+            "can_remove": true, 
+            "created_time": "2014-10-03T01:31:07+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1546386508928630", 
+            "from": {
+              "id": "794903197199017", 
+              "name": "Yoanna Dosouto"
+            }, 
+            "message": "You may want to check the specks of your computer and see what you actually have.", 
+            "can_remove": true, 
+            "created_time": "2014-10-03T01:57:11+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1546388112261803", 
+            "from": {
+              "id": "794903197199017", 
+              "name": "Yoanna Dosouto"
+            }, 
+            "message": "Close your virtual machine, then go to vm settings in vmware and try to change it. You are provably trying to change the processor when the vm is in pause, you have to turn it down first. Best", 
+            "can_remove": true, 
+            "created_time": "2014-10-03T02:04:21+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547746578792623", 
+            "from": {
+              "id": "809402832452703", 
+              "name": "Jessica Bao"
+            }, 
+            "message": "I'm sorry for the delayed notice! It works beautifully! Thanks Yoanna~!", 
+            "can_remove": true, 
+            "created_time": "2014-10-06T06:40:17+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTnpjME5qVTNPRGM1TWpZeU16b3hOREV5TlRjM05qRTNPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTmpNNE1UTTVPRGt5T1RFME1Ub3hOREV5TWprNU9EWTNPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1547622182138396", 
+      "from": {
+        "id": "10204600371946911", 
+        "name": "Danny Cohen"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Anyone happen to pick up a white and navy Nike windbreaker jacket after class??", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1547622182138396"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1547622182138396"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "application": {
+        "name": "Facebook for iPhone", 
+        "namespace": "fbiphone", 
+        "id": "6628568379"
+      }, 
+      "created_time": "2014-10-05T22:50:25+0000", 
+      "updated_time": "2014-10-05T22:50:25+0000"
+    }, 
+    {
+      "id": "1539631376270810_1547595492141065", 
+      "from": {
+        "id": "10103457048783428", 
+        "name": "Wei Kong"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Sorry if this was answered before, I couldn't find it below.\n\nWhen I open mint, it says that I'm \"Running in software rendering mode\" and it's running without hardware acceleration, which uses more CPU. Anyway to fix?\n\nMy system runs ok as is, so it's not really a big deal, but it'd be awesome if it gets better.", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1547595492141065"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1547595492141065"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-05T21:07:46+0000", 
+      "updated_time": "2014-10-05T21:18:02+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1547595912141023", 
+            "from": {
+              "id": "10201821807987293", 
+              "name": "Perry Lin Meas"
+            }, 
+            "message": "Here are the instructions http://www.tomshardware.com/faq/id-1957309/install-virtualbox-guest-additions-linux-mint.html", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T21:09:32+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547596705474277", 
+            "from": {
+              "id": "10103457048783428", 
+              "name": "Wei Kong"
+            }, 
+            "message": "Cool thanks.. So, this is completely separate from the VMware Workstation correct?", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T21:12:33+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547596875474260", 
+            "from": {
+              "id": "10201821807987293", 
+              "name": "Perry Lin Meas"
+            }, 
+            "message": "Ahh I don't exactly know and I forgot that some people are using Workstation. In that case, you might have to ask Sean", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T21:13:30+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547597295474218", 
+            "from": {
+              "id": "10103457048783428", 
+              "name": "Wei Kong"
+            }, 
+            "message": "No worries, thanks for your help anyway! At least you gave me an alternate route to go if I can't find a solution for Workstation. :)", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T21:15:07+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547597448807536", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "The link Perry posted works on VirtualBox. It won't work on VMWare (Fusion or Workstation), where the VMWare drivers aren't quite caught up with what Mint is using.  So it depends on what you're running. \n\nIf you're on Windows and Workstation is slow, the best thing seems to be disabling debug mode (see earlier post about this).  An alternative is installing VirtualBox and the guest addition.\n\nIf you're on OS X, Fusion is the way to go, though could also try VirtualBox + guest additions on OS X.", 
+            "message_tags": [
+              {
+                "id": "10201821807987293", 
+                "name": "Perry", 
+                "type": "user", 
+                "offset": 9, 
+                "length": 5
+              }
+            ], 
+            "can_remove": true, 
+            "created_time": "2014-10-05T21:15:53+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547597815474166", 
+            "from": {
+              "id": "10103457048783428", 
+              "name": "Wei Kong"
+            }, 
+            "message": "Ok cool. I've disabled debug mode already, and it works well enough. I was just wondering if I could get it snappier. I'll probably check out VirtualBox after this next assignment is done.", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T21:18:02+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTnpVNU56Z3hOVFEzTkRFMk5qb3hOREV5TlRRek9EZ3lPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTnpVNU5Ua3hNakUwTVRBeU16b3hOREV5TlRRek16Y3lPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1547544855479462", 
+      "from": {
+        "id": "1392588804349451", 
+        "name": "Samuel Marks"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Can anyone tell me how to open the Mint desktop? When I run Fusion it only opens the terminal view.  Thanks!", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1547544855479462"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1547544855479462"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-05T18:33:23+0000", 
+      "updated_time": "2014-10-05T19:24:00+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1547546768812604", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "If it's booting to the CLI, you can login with the same username and password (me, hcde310) and then typing starx should bring up the GUI.", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T18:40:05+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547559055478042", 
+            "from": {
+              "id": "1392588804349451", 
+              "name": "Samuel Marks"
+            }, 
+            "message": "Scratch that.  I got it!", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T19:24:00+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTnpVMU9UQTFOVFEzT0RBME1qb3hOREV5TlRNM01EUXdPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTnpVME5qYzJPRGd4TWpZd05Eb3hOREV5TlRNME5EQTFPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1547221625511785", 
+      "from": {
+        "id": "10201821807987293", 
+        "name": "Perry Lin Meas"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "I am having trouble acquiring the HW 1 file when using ./getHW.sh\n\nThe folder in my VM is created but the file fails to transfer.\n\nHere is a screen capture of my terminal.", 
+      "picture": "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/s130x130/10348296_10201815271143876_1145586817246784125_n.jpg?oh=dfa515b7620eb0d73a6954ba4fc066a5&oe=54B11E8A&__gda__=1424457077_ea9ff290a13c8419f2f596003d875630", 
+      "link": "https://www.facebook.com/photo.php?fbid=10201815271143876&set=gm.1547221625511785&type=1&relevant_count=1", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yz/r/StEh3RhPvjk.gif", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1547221625511785"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1547221625511785"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "photo", 
+      "object_id": "10201815271143876", 
+      "created_time": "2014-10-05T00:58:35+0000", 
+      "updated_time": "2014-10-05T04:17:53+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "1302357724", 
+            "name": "Quynh Huynh"
+          }, 
+          {
+            "id": "695801773849330", 
+            "name": "Daniel Aldridge"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "Njk1ODAxNzczODQ5MzMw", 
+            "before": "MTMwMjM1NzcyNA=="
+          }
+        }
+      }, 
+      "comments": {
+        "data": [
+          {
+            "id": "1547222385511709", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "hi Perry - did you run the svn upgrade command? (from terminal in ~/System/hcde310a14). I'm not sure this is it but want to rule out one possible cause", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T01:02:06+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547222575511690", 
+            "from": {
+              "id": "10201821807987293", 
+              "name": "Perry Lin Meas"
+            }, 
+            "message": "Yes, I ran the upgrade command before this", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T01:02:45+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547222855511662", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Hrm. And also the git pull command from ~/System?", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T01:04:07+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547223045511643", 
+            "from": {
+              "id": "10201821807987293", 
+              "name": "Perry Lin Meas"
+            }, 
+            "message": "Yes I did that as well", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T01:04:33+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547223165511631", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "okay, now I'm out of easy ideas -- going to try to reproduce it on my machine", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T01:05:03+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547224605511487", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "What's the output of\nls ~/System/hcde310a14/homeworks\nand\nls ~/System/hcde310a14/homeworks/hw1\non your machine?", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T01:11:04+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547225362178078", 
+            "from": {
+              "id": "10201821807987293", 
+              "name": "Perry Lin Meas"
+            }, 
+            "message": "The first confirms there is a directory.\nThe second says there is no such directory.\n\nApparently, the hw1 folder was created in ~/Homeworks and not within the System folder", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T01:14:45+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547225775511370", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "what's in  ~/System/hcde310a14/homeworks? hw0 only?", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T01:16:01+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547227165511231", 
+            "from": {
+              "id": "10201821807987293", 
+              "name": "Perry Lin Meas"
+            }, 
+            "message": "first_program.py", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T01:20:36+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547229768844304", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "I *think* something your SVN repository is corrupted in some way, but I'm not sure how. It's probably easiest to replace it by running the following commands in Terminal:\n\ncd ~/System\nrm -r hcde310a14\nsvn checkout https://subversion.assembla.com/svn/hcde310a14/\ncd ~\n./getHW.sh \n./getHW.sh 1\n\n(the first getHW.sh is necessary to get the lecture files back, the second should get hw1)", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T01:31:37+0000", 
+            "like_count": 3, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547270182173596", 
+            "from": {
+              "id": "10201821807987293", 
+              "name": "Perry Lin Meas"
+            }, 
+            "message": "It works! Thank you", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T04:17:53+0000", 
+            "like_count": 2, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTnpJM01ERTRNakUzTXpVNU5qb3hOREV5TkRneU5qY3pPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTnpJeU1qTTROVFV4TVRjd09Ub3hOREV5TkRjd09USTJPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1545944808972800", 
+      "from": {
+        "id": "214500245", 
+        "name": "Sean Munson"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "If you're using VirtualBox (rather than VMWare Workstation), installing the VirtualBox Guest Additions improves performance, by quite a bit on some machines. The process is at http://www.tomshardware.com/faq/id-1957309/install-virtualbox-guest-additions-linux-mint.html\n\n(If you are using Workstation or Fusion, the virtual machine image was distributed with the equivalent VMWare Tools already installed)", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1545944808972800"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1545944808972800"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-01T23:48:36+0000", 
+      "updated_time": "2014-10-05T01:45:17+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "10205189180514923", 
+            "name": "Stephanie Grose"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MTAyMDUxODkxODA1MTQ5MjM=", 
+            "before": "MTAyMDUxODkxODA1MTQ5MjM="
+          }
+        }
+      }, 
+      "comments": {
+        "data": [
+          {
+            "id": "1547232905510657", 
+            "from": {
+              "id": "10201821807987293", 
+              "name": "Perry Lin Meas"
+            }, 
+            "message": "Hi Sean, can I get the sudo password again to reinstall the guest additions?", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T01:44:21+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547233112177303", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "it's hcde310", 
+            "can_remove": true, 
+            "created_time": "2014-10-05T01:45:17+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTnpJek16RXhNakUzTnpNd016b3hOREV5TkRjek5URTNPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTnpJek1qa3dOVFV4TURZMU56b3hOREV5TkRjek5EWXhPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1547136342186980", 
+      "from": {
+        "id": "10152460350763106", 
+        "name": "Kyle Nesburg"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "I'm not getting the option to \"Update to HEAD\" under Team in Eclipse when right-clicking on the lectures project, only Apply path... or Share project... . Is there a work-around to receive the supplement 2 materials? Thanks!", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1547136342186980"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1547136342186980"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-04T18:51:40+0000", 
+      "updated_time": "2014-10-04T18:55:46+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1547137258853555", 
+            "from": {
+              "id": "548730186640", 
+              "name": "Chia-Fang Chung"
+            }, 
+            "message": "Hi Kyle, we noticed that there is a SVN problem so we changed the update procedure. Please follow this post to update the files (supplement materials will be inside lectures). https://canvas.uw.edu/courses/916351/discussion_topics/2293408", 
+            "can_remove": true, 
+            "created_time": "2014-10-04T18:55:06+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1547137418853539", 
+            "from": {
+              "id": "10152460350763106", 
+              "name": "Kyle Nesburg"
+            }, 
+            "message": "Ah, missed this. Thank you!", 
+            "can_remove": true, 
+            "created_time": "2014-10-04T18:55:46+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTnpFek56UXhPRGcxTXpVek9Ub3hOREV5TkRRNE9UUTJPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTnpFek56STFPRGcxTXpVMU5Ub3hOREV5TkRRNE9UQTJPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1546732205560727", 
+      "from": {
+        "id": "214500245", 
+        "name": "Sean Munson"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Consider attending the Shobe Prize info session: Wednesday, October 22, 2014, 2–3 p.m, UW Startup Hall, 1100 NE Campus Parkway.", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1546732205560727"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1546732205560727"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-03T23:21:48+0000", 
+      "updated_time": "2014-10-03T23:21:48+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "613461108762964", 
+            "name": "Samuel Sun"
+          }, 
+          {
+            "id": "10154641971405403", 
+            "name": "Korn Toongtong"
+          }, 
+          {
+            "id": "795750010470360", 
+            "name": "Kirk Lestelle"
+          }, 
+          {
+            "id": "548730186640", 
+            "name": "Chia-Fang Chung"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "NTQ4NzMwMTg2NjQw", 
+            "before": "NjEzNDYxMTA4NzYyOTY0"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1546047115629236", 
+      "from": {
+        "id": "705958719490280", 
+        "name": "Xiaochen Yu"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "So the thing is that I shut down my VMware Workstation and restarted it again right after. When I opened Eclipse, the left side bar became empty without the homework, lecture or any other lists expected. Then I tried to open hw0, and it worked. Could anyone help me to fix it to allow the folders to pop up?", 
+      "picture": "https://scontent-b.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/s130x130/1907438_703834793036006_4313950552708239997_n.jpg?oh=04f57a1d653a97e22717d88b9133dbaf&oe=54BC9054", 
+      "link": "https://www.facebook.com/photo.php?fbid=703834793036006&set=gm.1546047115629236&type=1&relevant_count=1", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yz/r/StEh3RhPvjk.gif", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1546047115629236"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1546047115629236"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "photo", 
+      "object_id": "703834793036006", 
+      "created_time": "2014-10-02T05:55:16+0000", 
+      "updated_time": "2014-10-02T19:53:35+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1546048442295770", 
+            "from": {
+              "id": "10204600371946911", 
+              "name": "Danny Cohen"
+            }, 
+            "message": "Actually never mind it looks like you are in the right window... Hmm", 
+            "can_remove": true, 
+            "created_time": "2014-10-02T06:03:03+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1546049112295703", 
+            "from": {
+              "id": "10204600371946911", 
+              "name": "Danny Cohen"
+            }, 
+            "message": "But it is weird that your file location is super long", 
+            "can_remove": true, 
+            "created_time": "2014-10-02T06:06:28+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1546049535628994", 
+            "from": {
+              "id": "705958719490280", 
+              "name": "Xiaochen Yu"
+            }, 
+            "message": "Yeah...it is...I tried to modify several times.", 
+            "can_remove": true, 
+            "created_time": "2014-10-02T06:08:44+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1546049685628979", 
+            "from": {
+              "id": "705958719490280", 
+              "name": "Xiaochen Yu"
+            }, 
+            "message": "oh that location is where hw1 is", 
+            "can_remove": true, 
+            "created_time": "2014-10-02T06:09:31+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1546072362293378", 
+            "from": {
+              "id": "548730186640", 
+              "name": "Chia-Fang Chung"
+            }, 
+            "message": "Hi, you can try to restart Eclipse, sometimes it doesn't read the metadata correctly and restart might help. \nThe other thing is to check whether those files are still in your file system, such as your Homework should be in /home/me/Homeworks, lectures should be in home/me/System/hcde310a14/lectures, and solutions should be in home/me/System/hcde310a14/solutions. \nIf they are still there, we can try to import them back. (Right click on the package explorer -> import -> Existing project into workspace). I can also help with that if you can drop by my office (423D) sometime tomorrow. Let me know if you plan to come so I won't leave my desk though.", 
+            "can_remove": true, 
+            "created_time": "2014-10-02T07:34:49+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1546196842280930", 
+            "from": {
+              "id": "705958719490280", 
+              "name": "Xiaochen Yu"
+            }, 
+            "message": "Thanks! Will try!", 
+            "can_remove": true, 
+            "created_time": "2014-10-02T15:09:44+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1546286042272010", 
+            "from": {
+              "id": "705958719490280", 
+              "name": "Xiaochen Yu"
+            }, 
+            "message": "I just tried to restart and it worked! Thanks!", 
+            "can_remove": true, 
+            "created_time": "2014-10-02T19:53:35+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTmpJNE5qQTBNakkzTWpBeE1Eb3hOREV5TWpjNU5qRTFPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTmpBME9EUTBNakk1TlRjM01Eb3hOREV5TWpJNU56Z3pPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1545927822307832", 
+      "from": {
+        "id": "10201821807987293", 
+        "name": "Perry Lin Meas"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Anyone still having issues with video memory affecting your computer's performance when running the virtual machine?", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1545927822307832"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1545927822307832"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-01T22:19:15+0000", 
+      "updated_time": "2014-10-02T02:45:53+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1545931815640766", 
+            "from": {
+              "id": "10204766902831586", 
+              "name": "Justin Woodum"
+            }, 
+            "message": "On what OS?", 
+            "can_remove": true, 
+            "created_time": "2014-10-01T22:38:55+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1545932048974076", 
+            "from": {
+              "id": "10201821807987293", 
+              "name": "Perry Lin Meas"
+            }, 
+            "message": "windows 7 home", 
+            "can_remove": true, 
+            "created_time": "2014-10-01T22:39:41+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1545992482301366", 
+            "from": {
+              "id": "10204766902831586", 
+              "name": "Justin Woodum"
+            }, 
+            "message": "I have the same OS. If you haven't forced VMWare out of debug mode, try that. There are directions (also by me) in one of the earlier threads Dr. Munson started.", 
+            "can_remove": true, 
+            "created_time": "2014-10-02T02:45:53+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTlRrNU1qUTRNak13TVRNMk5qb3hOREV5TWpFM09UVXpPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTlRrek1UZ3hOVFkwTURjMk5qb3hOREV5TWpBek1UTTFPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1545591252341489", 
+      "from": {
+        "id": "697532030294638", 
+        "name": "Autumn Grassel"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "\"c. Print the contents of s starting from the 9th character\" -- Does this mean starting from the 9th character and wrapping back around to the beginning, or just from the 9th char to the last char?", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1545591252341489"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1545591252341489"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-10-01T04:59:43+0000", 
+      "updated_time": "2014-10-01T05:01:13+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1545591482341466", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Just from the 9th through the end", 
+            "can_remove": true, 
+            "created_time": "2014-10-01T05:00:47+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1545591535674794", 
+            "from": {
+              "id": "697532030294638", 
+              "name": "Autumn Grassel"
+            }, 
+            "message": "thanks!", 
+            "can_remove": true, 
+            "created_time": "2014-10-01T05:01:13+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTlRVNU1UVXpOVFkzTkRjNU5Eb3hOREV5TVRNNU5qY3pPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTlRVNU1UUTRNak0wTVRRMk5qb3hOREV5TVRNNU5qUTNPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1545479935685954", 
+      "from": {
+        "id": "10152398220676476", 
+        "name": "Nicole Tilly"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Ok, I've been having some major computer issues (laptop died, sharing another comp with someone for now) so I'm way behind with all this HW0/setting up virtual environment stuff. Finally got VMware downloaded and the USB stick yesterday, but VMWare keeps telling me \"Error while powering on: the file specified is not a virtual disk.\" Is this because my disk file is corrupt? I'm attempting to re-download the disk image atm but since it's taking a while, has anyone else encountered this issue and found the problem to be something else? Thanks!", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1545479935685954"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1545479935685954"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-09-30T20:46:28+0000", 
+      "updated_time": "2014-09-30T21:10:14+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1545481752352439", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Hi Nicole - how are you opening VMWare and the file? That might help us troubleshoot.", 
+            "can_remove": true, 
+            "created_time": "2014-09-30T20:55:33+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1545483552352259", 
+            "from": {
+              "id": "10152398220676476", 
+              "name": "Nicole Tilly"
+            }, 
+            "message": "Thanks for the quick response! I have VMWare Player open and I click on \"Open a virtual machine.\" From there, I open my unzipped folder hcde310a14 and there is one file available to click on: hcde310a14.vmx. I click on that and it looks like VMware at least recognizes that I'm trying to use Linux (image attached). But then when I press play it gives me the error message I wrote about above.", 
+            "can_remove": true, 
+            "created_time": "2014-09-30T21:06:22+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1545484495685498", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Hi - I *think* you've been affected by some Windows VMWare incompatibility. If you download VMWare Workstation 11 (https://communities.vmware.com/community/vmtn/workstation/vmware-workstation-technology-preview-2014 and the license key is M50AC-J034J-08L8A-03ARM-3D14A), and then open the image using that, I think it will work for you.", 
+            "can_remove": true, 
+            "created_time": "2014-09-30T21:10:14+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTlRRNE5EUTVOVFk0TlRRNU9Eb3hOREV5TVRFeE5ERTBPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTlRRNE1UYzFNak0xTWpRek9Ub3hOREV5TVRFd05UTXpPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1545469902353624", 
+      "from": {
+        "id": "809402832452703", 
+        "name": "Jessica Bao"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "I'm just wondering if the second lecture slide is updated on the canvas~Thanks~!", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1545469902353624"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1545469902353624"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-09-30T19:56:51+0000", 
+      "updated_time": "2014-09-30T20:58:11+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1545473552353259", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Sorry about that - uploaded now https://canvas.uw.edu/courses/916351/files/28643595/download", 
+            "can_remove": true, 
+            "created_time": "2014-09-30T20:14:01+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1545482239019057", 
+            "from": {
+              "id": "809402832452703", 
+              "name": "Jessica Bao"
+            }, 
+            "message": "Thanks~!", 
+            "can_remove": true, 
+            "created_time": "2014-09-30T20:58:11+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTlRRNE1qSXpPVEF4T1RBMU56b3hOREV5TVRFd05qa3hPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTlRRM016VTFNak0xTXpJMU9Ub3hOREV5TVRBNE1EUXhPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1545388605695087", 
+      "from": {
+        "id": "214500245", 
+        "name": "Sean Munson"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "If you've been waiting on an add code, you should have received it this morning -- please let me know if not!", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1545388605695087"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1545388605695087"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-09-30T16:44:13+0000", 
+      "updated_time": "2014-09-30T16:44:13+0000"
+    }, 
+    {
+      "id": "1539631376270810_1545124149054866", 
+      "from": {
+        "id": "214500245", 
+        "name": "Sean Munson"
+      }, 
+      "to": {
+        "data": [
+          {
+            "id": "10154641971405403", 
+            "name": "Korn Toongtong"
+          }, 
+          {
+            "id": "459781507487063", 
+            "name": "Mia Minhyang Suh"
+          }, 
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Because of the SVN issues, we've slightly changed our process for distributing lectures and solutions - you can update the scripts we use for that by typing the following lines in terminal:\n\ncd ~/System\ngit pull \n\n(this may open a window, just type control-X)\n\ncd ~\n\nAfter that any time you run ./getHW.sh, it will update lectures and solutions (but you may still have to right click the folder and select \"Refresh\" in Eclipse). Thanks to Korn and Mia for helping us catch this problem early.", 
+      "message_tags": {
+        "439": [
+          {
+            "id": "10154641971405403", 
+            "name": "Korn", 
+            "type": "user", 
+            "offset": 439, 
+            "length": 4
+          }
+        ], 
+        "448": [
+          {
+            "id": "459781507487063", 
+            "name": "Mia", 
+            "type": "user", 
+            "offset": 448, 
+            "length": 3
+          }
+        ]
+      }, 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1545124149054866"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1545124149054866"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-09-30T02:01:25+0000", 
+      "updated_time": "2014-09-30T02:01:25+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "695801773849330", 
+            "name": "Daniel Aldridge"
+          }, 
+          {
+            "id": "459781507487063", 
+            "name": "Mia Minhyang Suh"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "NDU5NzgxNTA3NDg3MDYz", 
+            "before": "Njk1ODAxNzczODQ5MzMw"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1544703989096882", 
+      "from": {
+        "id": "10204449718108114", 
+        "name": "Candelario Peraza"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "3/4 way downloading and download stopped:(  because the link gave out...", 
+      "picture": "https://scontent-b.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/s130x130/10155236_10205657786349065_5129721037949860635_n.jpg?oh=5ee908eeb657a476476e89b38dd63229&oe=54B10109", 
+      "link": "https://www.facebook.com/photo.php?fbid=10205657786349065&set=gm.1544703989096882&type=1&relevant_count=1", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yz/r/StEh3RhPvjk.gif", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1544703989096882"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1544703989096882"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "photo", 
+      "object_id": "10205657786349065", 
+      "created_time": "2014-09-28T22:04:46+0000", 
+      "updated_time": "2014-09-29T16:58:44+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1544715412429073", 
+            "from": {
+              "id": "548730186640", 
+              "name": "Chia-Fang Chung"
+            }, 
+            "message": "Hi Candelario, sorry for the frustration. I'll be in my office (Sieg 423D) from 10am tomorrow if you want to copy the files from usb. Just let me know when you plan to come so I won't miss you.", 
+            "can_remove": true, 
+            "created_time": "2014-09-28T22:22:44+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1544740289093252", 
+            "from": {
+              "id": "10152590325121676", 
+              "name": "Nitaya Munkhong"
+            }, 
+            "message": "The same thing happened to me :( Chia-Fang Chung Will you be in your office at 11:30?", 
+            "message_tags": [
+              {
+                "id": "548730186640", 
+                "name": "Chia-Fang Chung", 
+                "type": "user", 
+                "offset": 33, 
+                "length": 15
+              }
+            ], 
+            "can_remove": true, 
+            "created_time": "2014-09-29T00:32:04+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1544740452426569", 
+            "from": {
+              "id": "548730186640", 
+              "name": "Chia-Fang Chung"
+            }, 
+            "message": "Hi Nitaya, Yes I'll be there. Let's copy the files to your machine then?", 
+            "can_remove": true, 
+            "created_time": "2014-09-29T00:34:13+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1544742195759728", 
+            "from": {
+              "id": "794903197199017", 
+              "name": "Yoanna Dosouto"
+            }, 
+            "message": "This link to the files is working: https://drive.google.com/folderview?id=0B3NHAFY3OrsHN0ZfU0dGUUFkUEU&usp=sharing Best", 
+            "can_remove": true, 
+            "created_time": "2014-09-29T00:46:19+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1544995365734411", 
+            "from": {
+              "id": "10203844662590794", 
+              "name": "Natalee Ouzts"
+            }, 
+            "message": "Chia-Fang Chung, can I come in also? I had the same thing happen to me.", 
+            "message_tags": [
+              {
+                "id": "548730186640", 
+                "name": "Chia-Fang Chung", 
+                "type": "user", 
+                "offset": 0, 
+                "length": 15
+              }
+            ], 
+            "can_remove": true, 
+            "created_time": "2014-09-29T16:51:55+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1544997555734192", 
+            "from": {
+              "id": "548730186640", 
+              "name": "Chia-Fang Chung"
+            }, 
+            "message": "Sure :)", 
+            "can_remove": true, 
+            "created_time": "2014-09-29T16:58:44+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTkRrNU56VTFOVGN6TkRFNU1qb3hOREV5TURBNU9USTBPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTkRjeE5UUXhNalF5T1RBM016b3hOREV4T1RReU9UWTBPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1544757509091530", 
+      "from": {
+        "id": "10201651549410551", 
+        "name": "Sami West"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "It's asking me for my login and i'm not sure what it is. Help?", 
+      "picture": "https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/s130x130/10538484_10201610635427727_3089326167922445941_n.jpg?oh=8e7cb5abd737cca5aad92a79dde981a7&oe=54F6A3D7&__gda__=1421562988_729333556732305f23104732c7fde124", 
+      "link": "https://www.facebook.com/photo.php?fbid=10201610635427727&set=gm.1544757509091530&type=1&relevant_count=1", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yz/r/StEh3RhPvjk.gif", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1544757509091530"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1544757509091530"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "photo", 
+      "object_id": "10201610635427727", 
+      "created_time": "2014-09-29T01:56:30+0000", 
+      "updated_time": "2014-09-29T01:58:25+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1544757742424840", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "username: me; password: hcde310", 
+            "can_remove": true, 
+            "created_time": "2014-09-29T01:58:05+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1544757825758165", 
+            "from": {
+              "id": "10201651549410551", 
+              "name": "Sami West"
+            }, 
+            "message": "thanks!", 
+            "can_remove": true, 
+            "created_time": "2014-09-29T01:58:25+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTkRjMU56Z3lOVGMxT0RFMk5Ub3hOREV4T1RVMU9UQTFPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTkRjMU56YzBNalF5TkRnME1Eb3hOREV4T1RVMU9EZzFPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1544752439092037", 
+      "from": {
+        "id": "214500245", 
+        "name": "Sean Munson"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Hi all. The Dropbox keeps cutting of our link (well below the bandwidth limitations of the account, sorry -- this was unexpected), so if you haven't been able to get a working copy of the virtual machine, please come by Sieg 423 after 10a and Christina can help you get it installed, or we will work with you in class.", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1544752439092037"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1544752439092037"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-09-29T01:32:08+0000", 
+      "updated_time": "2014-09-29T01:32:08+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "459781507487063", 
+            "name": "Mia Minhyang Suh"
+          }, 
+          {
+            "id": "548730186640", 
+            "name": "Chia-Fang Chung"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "NTQ4NzMwMTg2NjQw", 
+            "before": "NDU5NzgxNTA3NDg3MDYz"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1544725579094723", 
+      "from": {
+        "id": "10152590325121676", 
+        "name": "Nitaya Munkhong"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "I have tried downloading the zip for Linux Mint which I was unable to extract  (said it was corrupted), and tried downloading the files individually which failed when downloading hcde310a14-disk1.vmdk. Can anyone help?", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1544725579094723"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1544725579094723"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-09-28T23:05:03+0000", 
+      "updated_time": "2014-09-29T00:46:42+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1544741925759755", 
+            "from": {
+              "id": "794903197199017", 
+              "name": "Yoanna Dosouto"
+            }, 
+            "message": "Hi Nitaya Munkhong I posted a few days ago a link to the virtual machine through drive. If you scroll down you will see it. I downloaded and installed it from there into my computer, that should work for you. Best", 
+            "message_tags": [
+              {
+                "id": "10152590325121676", 
+                "name": "Nitaya Munkhong", 
+                "type": "user", 
+                "offset": 3, 
+                "length": 15
+              }
+            ], 
+            "can_remove": true, 
+            "created_time": "2014-09-29T00:44:00+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1544742259093055", 
+            "from": {
+              "id": "794903197199017", 
+              "name": "Yoanna Dosouto"
+            }, 
+            "message": "Here you have it https://drive.google.com/folderview?id=0B3NHAFY3OrsHN0ZfU0dGUUFkUEU&usp=sharing", 
+            "can_remove": true, 
+            "created_time": "2014-09-29T00:46:42+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTkRjME1qSTFPVEE1TXpBMU5Ub3hOREV4T1RVeE5qQXlPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTkRjME1Ua3lOVGMxT1RjMU5Ub3hOREV4T1RVeE5EUXdPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1543054515928496", 
+      "from": {
+        "id": "214500245", 
+        "name": "Sean Munson"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Hi Windows users -- sorry for the trouble today, but we've found a workaround. \n\nDownload Workstation 11 (the technology preview) from https://communities.vmware.com/community/vmtn/workstation/vmware-workstation-technology-preview-2014\n\nThis should be freely available until January 2015, at which point it will go in the store and you can get a \"free\" license for a year.", 
+      "caption": "Attachment UnavailableThis attachment may have been removed or the person who shared it may not have permission to share it with you.", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1543054515928496"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1543054515928496"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-09-25T00:06:56+0000", 
+      "updated_time": "2014-09-28T23:53:52+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "695801773849330", 
+            "name": "Daniel Aldridge"
+          }, 
+          {
+            "id": "10205189180514923", 
+            "name": "Stephanie Grose"
+          }, 
+          {
+            "id": "794903197199017", 
+            "name": "Yoanna Dosouto"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "Nzk0OTAzMTk3MTk5MDE3", 
+            "before": "Njk1ODAxNzczODQ5MzMw"
+          }
+        }
+      }, 
+      "comments": {
+        "data": [
+          {
+            "id": "1543069912593623", 
+            "from": {
+              "id": "10204766902831586", 
+              "name": "Justin Woodum"
+            }, 
+            "message": "SUCCESS on Windows 7 64-bit! It runs VERY slow (so slow you can't see what you type), but it technically works. The trick is to (1) clicks Ok to everything Windows warns about and (2) wait until you see a desktop before doing anything (takes ~4 minutes for me).\n\nStep-by-step of my process if anyone needs it:\n\nUsed the non-zipped version of the class files (waited for it in class) so did not have to unzip.\n\nHad to register for a free VMWare account.\n\nUsed the physical address for the HCDE department as my company (mandatory) taken from http://www.hcde.washington.edu/contact-us\n\n3960 Benton Lane NE\nUniversity of Washington\nSeattle, WA 98195 \n\nDownloaded the File where Information says \"Vmware Workstation Technical Preview July 2014 for Windows\nProduct installation including VMware Tools for Windows Operating Systems.\"\n\nTook ~10 minutes to download.\n\nInstalled.\n\nHad to uninstall the VMWare player I installed while in class.\n\nInstaller asked 3 times if I wanted to allow installation. Said yes every time.\n\nAsked me to enter Installation Key. Said Skip.\n\nInstallation took ~5 minutes.\n\nStarted the VMPlayer.\n\nLoaded and played the virtual machine (.vmdk file) into the player.\n\nAlert popped up: \"Binary translation is incompatible with long mode on this platform. Long mode will be disabled in this virtual environment and applications requiring long mode will not function properly as a result. See http://vmware.com/info?id=152 for more details.\"\n\nI clicked Ok.\n\nAlert popped up: \"You are running this virtual machine with debugging enabled. Debugging performs extra error checking to help diagnose problems, but it also lowers performance.\"\n\nI clicked Ok.\n\nAlert popped up: \"This virtual machine might have been moved or copied. In order to configure certain management and networking features, VMware Player needs to know if this virtual machine was moved or copied. If you don't know, answer \"I Copied It\".\"\n\nI clicked \"I copied it\".\n\nWindows only shows a green graphics in the middle. \n\nI clicked ALT-TAB and discovered there were 2 windows open on top of each other (maybe it opens 2 windows always...).\n\nIt took ~2 minutes to load.\n\nFinally, I landed n a graphical login screen (similar to a Windows login screen, not the text login).\n\nI entered my name.\n \nIt prompted me to enter a password but I switched windows to type this documentation. When I returned, it had logged me into a desktop. Maybe typing in my text editor program also typed it into VMWare? Oops.\n\nInside the desktop, it runs too slow to use.\n\nAt the top of the VMPlayer, is a icon that looks like a \"Pause\" symbol. Clicked that and under, clicked \"Restart Guest\".\n\nAgain, only agreen icon appeared. I clicked ALT-TAB to see Linux Mint starting.\n\n~5 minutes later, back in the desktop without having to login this time.\n\nOpened Terminal.\n\nEntered Python program successfully.\n\nIt runs annoyingly slow but works.", 
+            "can_remove": true, 
+            "created_time": "2014-09-25T01:41:07+0000", 
+            "like_count": 4, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1543071189260162", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "The VM is set up to auto-login after a few seconds, but the username is \"me\" and password is \"hcde310\"\n\nTurning off debug mode might improve the performance; there's a thread on VMWare's site: https://communities.vmware.com/thread/484066", 
+            "can_remove": true, 
+            "created_time": "2014-09-25T01:48:12+0000", 
+            "like_count": 2, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1543100192590595", 
+            "from": {
+              "id": "10204766902831586", 
+              "name": "Justin Woodum"
+            }, 
+            "message": "I found directions that worked on a link I found via the link above: https://communities.vmware.com/thread/448058 (again, my computer has a 64-bit processor so files were in a \"x64\" folder. Startup time is about the same but the desktop and terminal run much faster. This will work. Thanks!\n\nHere's what I did:\n\nRename\nC:\\Program Files (x86)\\VMware\\VMware Player\\x64\\vmware-vmx-debug.exe\nto\nC:\\Program Files (x86)\\VMware\\VMware Player\\x64\\vmware-vmx-debug.exe_ORIGINAL\n\nRename\nC:\\Program Files (x86)\\VMware\\VMware Player\\vmware-remotemks-debug.exe\nto\nC:\\Program Files (x86)\\VMware\\VMware Player\\vmware-remotemks-debug.exe_ORIGINAL\n\nCopy and rename\nC:\\Program Files (x86)\\VMware\\VMware Player\\x64\\vmware-vmx.exe\nto\nC:\\Program Files (x86)\\VMware\\VMware Player\\x64\\vmware-vmx-debug.exe\n\nCopy and rename\nC:\\Program Files (x86)\\VMware\\VMware Player\\x64\\vmware-remotemks.exe\nto\nC:\\Program Files (x86)\\VMware\\VMware Player\\x64\\vmware-remotemks-debug.exe", 
+            "can_remove": true, 
+            "created_time": "2014-09-25T04:01:44+0000", 
+            "like_count": 2, 
+            "user_likes": true
+          }, 
+          {
+            "id": "1543442835889664", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Thanks for sharing the trouble -- and sharing the workaround. Hopefully it will save others some trouble", 
+            "can_remove": true, 
+            "created_time": "2014-09-26T00:27:37+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1544718575762090", 
+            "from": {
+              "id": "10204766902831586", 
+              "name": "Justin Woodum"
+            }, 
+            "message": "Fail. The version of the VMware I downloaded above prompted me for a license or to use a 30 day trial. Since our class will last longer than 30 days, that won't help. My current plan is to install my own web server and Python instances, rather than keep working with VMware.", 
+            "can_remove": true, 
+            "created_time": "2014-09-28T22:33:02+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1544718775762070", 
+            "from": {
+              "id": "10204766902831586", 
+              "name": "Justin Woodum"
+            }, 
+            "message": "Oi....except that I need Linux running probably?", 
+            "can_remove": true, 
+            "created_time": "2014-09-28T22:34:41+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1544718919095389", 
+            "from": {
+              "id": "10204766902831586", 
+              "name": "Justin Woodum"
+            }, 
+            "message": "Maybe I will subscribe to Digital Ocean or Linode, use their pre-made images to install Linux and then install Python, if necessary.", 
+            "can_remove": true, 
+            "created_time": "2014-09-28T22:35:44+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1544719935761954", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Linux isn't necessary. We use the virtual machine because we've had horrible problems in past years with students running different Python versions with different installs.\n\nIf you are using workstation 11, the download page has a license key good through January 2015.\n\nIf you go the non VMware route, the main things are to stick with Python 2.7.x (anything in 2.7 should be fine, we use 2.7.4 when we write sample code, write homeworkers, and grade homeworks). You'll also simplify your life greatly if you install eclipse (or another IDE) that will sync with an SVN repository.", 
+            "can_remove": true, 
+            "created_time": "2014-09-28T22:41:24+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1544734525760495", 
+            "from": {
+              "id": "10204766902831586", 
+              "name": "Justin Woodum"
+            }, 
+            "message": "Had already uninstalled the VMware requiring the key. Re-installed and used key successfully. I assume this can be used with an already existing installation, too. For reference, key is M50AC-J034J-08L8A-03ARM-3D14A (expires January 15, 2015). Working now.", 
+            "can_remove": true, 
+            "created_time": "2014-09-28T23:53:52+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTkRjek5EVXlOVGMyTURRNU5Ub3hOREV4T1RRNE5ETXlPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTXpBMk9Ua3hNalU1TXpZeU16b3hOREV4TmpBNU1qWTNPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1544360132464601", 
+      "from": {
+        "id": "857971260894845", 
+        "name": "Tristan Shi"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "I decided to to install everything natively on my Mac. Can someone tell me the repo so that I can get \"first_program.py\"?", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1544360132464601"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1544360132464601"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-09-28T04:47:35+0000", 
+      "updated_time": "2014-09-28T07:47:50+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1544407955793152", 
+            "from": {
+              "id": "548730186640", 
+              "name": "Chia-Fang Chung"
+            }, 
+            "message": "Hi Tristan, you should be able to use this url to get homework files: https://subversion.assembla.com/svn/hcde310a14/homeworks/", 
+            "can_remove": true, 
+            "created_time": "2014-09-28T07:47:50+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTkRRd056azFOVGM1TXpFMU1qb3hOREV4T0Rrd05EY3dPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTkRRd056azFOVGM1TXpFMU1qb3hOREV4T0Rrd05EY3dPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1543762369191044", 
+      "from": {
+        "id": "294766764058640", 
+        "name": "Anne Zheng"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Why do I have lecture 5 instead of lecture 2? As the image attached, does this means that I finished part7 in HW0? Thanks!", 
+      "picture": "https://scontent-a.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/p110x80/10665113_290744311127552_3726980375861873581_n.jpg?oh=32e3aae8bd4b0330b61609bedd87c5f0&oe=54EA43DD", 
+      "link": "https://www.facebook.com/photo.php?fbid=290744311127552&set=gm.1543762369191044&type=1&relevant_count=1", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yz/r/StEh3RhPvjk.gif", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1543762369191044"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1543762369191044"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "photo", 
+      "object_id": "290744311127552", 
+      "created_time": "2014-09-26T18:48:44+0000", 
+      "updated_time": "2014-09-27T23:08:22+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "613461108762964", 
+            "name": "Samuel Sun"
+          }, 
+          {
+            "id": "214500245", 
+            "name": "Sean Munson"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MjE0NTAwMjQ1", 
+            "before": "NjEzNDYxMTA4NzYyOTY0"
+          }
+        }
+      }, 
+      "comments": {
+        "data": [
+          {
+            "id": "1543764455857502", 
+            "from": {
+              "id": "548730186640", 
+              "name": "Chia-Fang Chung"
+            }, 
+            "message": "Yes you did. The s2 means you got lecture 2 and the 5 is just the version of it.", 
+            "can_remove": true, 
+            "created_time": "2014-09-26T18:56:20+0000", 
+            "like_count": 1, 
+            "user_likes": true
+          }, 
+          {
+            "id": "1543766595857288", 
+            "from": {
+              "id": "294766764058640", 
+              "name": "Anne Zheng"
+            }, 
+            "message": "Thank you!", 
+            "can_remove": true, 
+            "created_time": "2014-09-26T19:07:34+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1544269399140341", 
+            "from": {
+              "id": "10152727880279522", 
+              "name": "Chip Connor"
+            }, 
+            "message": "I had this question too! Thanks for the reassurance!", 
+            "can_remove": true, 
+            "created_time": "2014-09-27T23:08:22+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTkRJMk9UTTVPVEUwTURNME1Ub3hOREV4T0RVNU16QXlPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTXpjMk5EUTFOVGcxTnpVd01qb3hOREV4TnpVM056Z3dPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1544260775807870", 
+      "from": {
+        "id": "383619521785178", 
+        "name": "Max Schreiber"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "So I got everything up and running on my laptop. However, my laptop is rocking some pretty old specs and things are running really slowly and I thought I would ask if we could just install eclipse and pydev and cut VM out of the equation.", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1544260775807870"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1544260775807870"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-09-27T22:21:28+0000", 
+      "updated_time": "2014-09-27T22:44:40+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1544264632474151", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "That's fine - you'll also want to set up SVN to check out the homework and lecture code (you can download the files directly, but SVN is easier in the long run), and try to stay with python 2.7 (otherwise some of the examples / assignments may fail or behave differently)", 
+            "can_remove": true, 
+            "created_time": "2014-09-27T22:44:40+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTkRJMk5EWXpNalEzTkRFMU1Ub3hOREV4T0RVM09EZ3dPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTkRJMk5EWXpNalEzTkRFMU1Ub3hOREV4T0RVM09EZ3dPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1544060965827851", 
+      "from": {
+        "id": "613461108762964", 
+        "name": "Samuel Sun"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Hello everyone! It seems the program system runs pretty slow on Mac since the memory space is just 512 MB. Here is my way to change the memory space: first, you need to shut down your Mint System, then click the virtual machine button on the top bar, find and open the Settings menu under it, then you can find the memory settings in here and change that!", 
+      "picture": "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/s130x130/10371399_609049419204133_1974750428173925735_n.jpg?oh=225b337017f11bb697ed724a39bf6865&oe=54EAEC4E&__gda__=1420445084_e4c406fd476fe3b2d37e2bcf9bbdb51e", 
+      "link": "https://www.facebook.com/photo.php?fbid=609049419204133&set=pcb.1544060965827851&type=1&relevant_count=2", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yz/r/StEh3RhPvjk.gif", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1544060965827851"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1544060965827851"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "photo", 
+      "object_id": "609049419204133", 
+      "created_time": "2014-09-27T13:48:51+0000", 
+      "updated_time": "2014-09-27T13:48:51+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "695801773849330", 
+            "name": "Daniel Aldridge"
+          }, 
+          {
+            "id": "860888250596380", 
+            "name": "Lisa Hu"
+          }, 
+          {
+            "id": "10204449718108114", 
+            "name": "Candelario Peraza"
+          }, 
+          {
+            "id": "548730186640", 
+            "name": "Chia-Fang Chung"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "NTQ4NzMwMTg2NjQw", 
+            "before": "Njk1ODAxNzczODQ5MzMw"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1543758282524786", 
+      "from": {
+        "id": "10152112330778233", 
+        "name": "Sabrina Weschler"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "I am having trouble finding the How To document \"Unix commands.\" Does anyone know where it is?", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1543758282524786"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1543758282524786"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-09-26T18:27:02+0000", 
+      "updated_time": "2014-09-27T03:54:00+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1543760275857920", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Sorry!\n\nhttps://canvas.uw.edu/courses/916351/files/28551661/\n(Canvas --> Files --> Documentation)", 
+            "can_remove": true, 
+            "created_time": "2014-09-26T18:36:27+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1543784412522173", 
+            "from": {
+              "id": "10152112330778233", 
+              "name": "Sabrina Weschler"
+            }, 
+            "message": "Thank you!", 
+            "can_remove": true, 
+            "created_time": "2014-09-26T20:12:15+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1543888509178430", 
+            "from": {
+              "id": "10153467106241959", 
+              "name": "Jess Landquist"
+            }, 
+            "message": "This also helped me:\nhttp://en.m.wikipedia.org/wiki/List_of_Unix_commands", 
+            "can_remove": true, 
+            "created_time": "2014-09-27T03:54:00+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTXpnNE9EVXdPVEUzT0RRek1Eb3hOREV4Tnprd01EUXdPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTXpjMk1ESTNOVGcxTnpreU1Eb3hOREV4TnpVMk5UZzNPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1543759875857960", 
+      "from": {
+        "id": "10203786373205623", 
+        "name": "Kendall McGinnis Avery"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "\"In Eclipse, on the left side, right-click on the \"lectures\" project, select Team > Update.\" This left side doesn't seem to exist...help?", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1543759875857960"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1543759875857960"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-09-26T18:34:52+0000", 
+      "updated_time": "2014-09-26T19:14:26+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1543760672524547", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Hi Kendall, what does eclipse look like when it loads for you?  There should be a pydev package explorer window open on the left. Thanks.", 
+            "can_remove": true, 
+            "created_time": "2014-09-26T18:39:26+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1543768452523769", 
+            "from": {
+              "id": "10203786373205623", 
+              "name": "Kendall McGinnis Avery"
+            }, 
+            "message": "Found it, my minimized view hid some of the screens but it worked after I closed them out!", 
+            "can_remove": true, 
+            "created_time": "2014-09-26T19:14:26+0000", 
+            "like_count": 1, 
+            "user_likes": true
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTXpjMk9EUTFNalV5TXpjMk9Ub3hOREV4TnpVNE9EWTJPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTXpjMk1EWTNNalV5TkRVME56b3hOREV4TnpVMk56WTJPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1543064345927513", 
+      "from": {
+        "id": "794903197199017", 
+        "name": "Yoanna Dosouto"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Hi guys, here you have a link to drive for those of you who failed to copy or copied a corrupted version of the file. https://drive.google.com/folderview?id=0B3NHAFY3OrsHN0ZfU0dGUUFkUEU&usp=sharing", 
+      "caption": "Attachment UnavailableThis attachment may have been removed or the person who shared it may not have permission to share it with you.", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1543064345927513"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1543064345927513"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-09-25T01:02:42+0000", 
+      "updated_time": "2014-09-25T02:00:36+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "695801773849330", 
+            "name": "Daniel Aldridge"
+          }, 
+          {
+            "id": "860888250596380", 
+            "name": "Lisa Hu"
+          }, 
+          {
+            "id": "548730186640", 
+            "name": "Chia-Fang Chung"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "NTQ4NzMwMTg2NjQw", 
+            "before": "Njk1ODAxNzczODQ5MzMw"
+          }
+        }
+      }, 
+      "comments": {
+        "data": [
+          {
+            "id": "1543075062593108", 
+            "from": {
+              "id": "860888250596380", 
+              "name": "Lisa Hu"
+            }, 
+            "message": "Thank you! :)", 
+            "can_remove": true, 
+            "created_time": "2014-09-25T02:00:36+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTXpBM05UQTJNalU1TXpFd09Eb3hOREV4TmpFd05ETTJPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTXpBM05UQTJNalU1TXpFd09Eb3hOREV4TmpFd05ETTJPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1543064485927499", 
+      "from": {
+        "id": "10201651549410551", 
+        "name": "Sami West"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "Can someone help me out with downloading VMWare Fusion? I'm not sure what I'm doing wrong.", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1543064485927499"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1543064485927499"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-09-25T01:04:14+0000", 
+      "updated_time": "2014-09-25T01:21:50+0000", 
+      "comments": {
+        "data": [
+          {
+            "id": "1543064722594142", 
+            "from": {
+              "id": "794903197199017", 
+              "name": "Yoanna Dosouto"
+            }, 
+            "message": "What do you have? Mac or Windows?", 
+            "can_remove": true, 
+            "created_time": "2014-09-25T01:06:14+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1543064765927471", 
+            "from": {
+              "id": "10201651549410551", 
+              "name": "Sami West"
+            }, 
+            "message": "Mac", 
+            "can_remove": true, 
+            "created_time": "2014-09-25T01:06:35+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1543064922594122", 
+            "from": {
+              "id": "794903197199017", 
+              "name": "Yoanna Dosouto"
+            }, 
+            "message": "are you in the onthehub website?", 
+            "can_remove": true, 
+            "created_time": "2014-09-25T01:07:50+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1543065129260768", 
+            "from": {
+              "id": "10201651549410551", 
+              "name": "Sami West"
+            }, 
+            "message": "Yeah, I already \"purchased\" and pressed download. I just need help with the installation part of it I guess. It's telling me \"no operating system found.\"", 
+            "can_remove": true, 
+            "created_time": "2014-09-25T01:09:26+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1543065429260738", 
+            "from": {
+              "id": "794903197199017", 
+              "name": "Yoanna Dosouto"
+            }, 
+            "message": "I have a windows computer so I guess those steps are different, sorry I can't help you with that. Good luck, hopefully a mac user will help you soon.", 
+            "can_remove": true, 
+            "created_time": "2014-09-25T01:11:08+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1543065819260699", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Hi Sami - can you post a screenshot of the error message or describe where in the process it is giving you the error? Thanks!", 
+            "can_remove": true, 
+            "created_time": "2014-09-25T01:14:13+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1543065985927349", 
+            "from": {
+              "id": "10201651549410551", 
+              "name": "Sami West"
+            }, 
+            "message": "and then after it shows this, something will pop up and say no operating system found. i'm so confused!", 
+            "can_remove": true, 
+            "created_time": "2014-09-25T01:16:06+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1543066299260651", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Hrm. What happens if you close this and start the virtual machine by double clicking on the .vmx file (which was in the zip file)?", 
+            "can_remove": true, 
+            "created_time": "2014-09-25T01:18:16+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1543066622593952", 
+            "from": {
+              "id": "10201651549410551", 
+              "name": "Sami West"
+            }, 
+            "message": "Oh, it works now! haha. Thanks. :)", 
+            "can_remove": true, 
+            "created_time": "2014-09-25T01:20:30+0000", 
+            "like_count": 2, 
+            "user_likes": true
+          }, 
+          {
+            "id": "1543066795927268", 
+            "from": {
+              "id": "214500245", 
+              "name": "Sean Munson"
+            }, 
+            "message": "Hooray :)", 
+            "can_remove": true, 
+            "created_time": "2014-09-25T01:21:50+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTXpBMk5qYzVOVGt5TnpJMk9Eb3hOREV4TmpBNE1URXdPaTB4", 
+            "before": "WTI5dGJXVnVkRjlqZFhKemIzSTZNVFUwTXpBMk5EY3lNalU1TkRFME1qb3hOREV4TmpBM01UYzBPaTB4"
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1539631376270810_1543059985927949", 
+      "from": {
+        "id": "548730186640", 
+        "name": "Chia-Fang Chung"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "message": "If you are still unable to get the file copied, email us and let us know whether you are using Mac or Windows, we'll try to pass the usb around.", 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1543059985927949"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1543059985927949"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "application": {
+        "name": "Facebook for iPhone", 
+        "namespace": "fbiphone", 
+        "id": "6628568379"
+      }, 
+      "created_time": "2014-09-25T00:36:16+0000", 
+      "updated_time": "2014-09-25T00:36:16+0000"
+    }, 
+    {
+      "id": "1539631376270810_1539632332937381", 
+      "from": {
+        "id": "214500245", 
+        "name": "Sean Munson"
+      }, 
+      "to": {
+        "data": [
+          {
+            "name": "HCDE 310 - A14", 
+            "id": "1539631376270810"
+          }
+        ]
+      }, 
+      "actions": [
+        {
+          "name": "Comment", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1539632332937381"
+        }, 
+        {
+          "name": "Like", 
+          "link": "https://www.facebook.com/1539631376270810/posts/1539632332937381"
+        }
+      ], 
+      "privacy": {
+        "value": ""
+      }, 
+      "type": "status", 
+      "created_time": "2014-09-16T16:54:20+0000", 
+      "updated_time": "2014-09-16T16:54:20+0000", 
+      "likes": {
+        "data": [
+          {
+            "id": "695801773849330", 
+            "name": "Daniel Aldridge"
+          }, 
+          {
+            "id": "548730186640", 
+            "name": "Chia-Fang Chung"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "NTQ4NzMwMTg2NjQw", 
+            "before": "Njk1ODAxNzczODQ5MzMw"
+          }
+        }
+      }
+    }
+  ], 
+  "paging": {
+    "previous": "https://graph.facebook.com/v2.1/1539631376270810/feed?limit=500&since=1413914408&__paging_token=enc_AezsTIATfja-brqsee_NTbTbT0UMm1udKiW8UVy4JUjPSnmglACV_Zce8PwswVJBbOfXLyNjaO3-JQc1pvmnm7iAexIxlriMeSXIqxi9ggR4lg", 
+    "next": "https://graph.facebook.com/v2.1/1539631376270810/feed?limit=500&until=1410886460&__paging_token=enc_Aez0RWkOhPw-bnseEMsi7xhy1xJrID-cGTmPfzYCT6BN3qRieT-MS6I-I_pH_bdfVdYj93ZNtClI1gmsaosmmvGuny4iawO-FwADqTou4qzbjA"
+  }
+}

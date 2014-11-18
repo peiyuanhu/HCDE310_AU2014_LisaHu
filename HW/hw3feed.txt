@@ -1,0 +1,224 @@
+from: Danny Cohen
+post: Anyone happen to pick up a white and navy Nike windbreaker jacket after class??
+from: Wei Kong
+post: Sorry if this was answered before, I couldn't find it below.  When I open mint, it says that I'm "Running in software rendering mode" and it's running without hardware acceleration, which uses more CPU. Anyway to fix?  My system runs ok as is, so it's not really a big deal, but it'd be awesome if it gets better.
+from: Perry Lin Meas
+comment: Here are the instructions http://www.tomshardware.com/faq/id-1957309/install-virtualbox-guest-additions-linux-mint.html
+from: Wei Kong
+comment: Cool thanks.. So, this is completely separate from the VMware Workstation correct?
+from: Perry Lin Meas
+comment: Ahh I don't exactly know and I forgot that some people are using Workstation. In that case, you might have to ask Sean
+from: Wei Kong
+comment: No worries, thanks for your help anyway! At least you gave me an alternate route to go if I can't find a solution for Workstation. :)
+from: Sean Munson
+comment: The link Perry posted works on VirtualBox. It won't work on VMWare (Fusion or Workstation), where the VMWare drivers aren't quite caught up with what Mint is using.  So it depends on what you're running.   If you're on Windows and Workstation is slow, the best thing seems to be disabling debug mode (see earlier post about this).  An alternative is installing VirtualBox and the guest addition.  If you're on OS X, Fusion is the way to go, though could also try VirtualBox + guest additions on OS X.
+from: Wei Kong
+comment: Ok cool. I've disabled debug mode already, and it works well enough. I was just wondering if I could get it snappier. I'll probably check out VirtualBox after this next assignment is done.
+from: Samuel Marks
+post: Can anyone tell me how to open the Mint desktop? When I run Fusion it only opens the terminal view.  Thanks!
+from: Sean Munson
+comment: If it's booting to the CLI, you can login with the same username and password (me, hcde310) and then typing starx should bring up the GUI.
+from: Samuel Marks
+comment: Scratch that.  I got it!
+from: Perry Lin Meas
+post: I am having trouble acquiring the HW 1 file when using ./getHW.sh  The folder in my VM is created but the file fails to transfer.  Here is a screen capture of my terminal.
+from: Sean Munson
+comment: hi Perry - did you run the svn upgrade command? (from terminal in ~/System/hcde310a14). I'm not sure this is it but want to rule out one possible cause
+from: Perry Lin Meas
+comment: Yes, I ran the upgrade command before this
+from: Sean Munson
+comment: Hrm. And also the git pull command from ~/System?
+from: Perry Lin Meas
+comment: Yes I did that as well
+from: Sean Munson
+comment: okay, now I'm out of easy ideas -- going to try to reproduce it on my machine
+from: Sean Munson
+comment: What's the output of ls ~/System/hcde310a14/homeworks and ls ~/System/hcde310a14/homeworks/hw1 on your machine?
+from: Perry Lin Meas
+comment: The first confirms there is a directory. The second says there is no such directory.  Apparently, the hw1 folder was created in ~/Homeworks and not within the System folder
+from: Sean Munson
+comment: what's in  ~/System/hcde310a14/homeworks? hw0 only?
+from: Perry Lin Meas
+comment: first_program.py
+from: Sean Munson
+comment: I *think* something your SVN repository is corrupted in some way, but I'm not sure how. It's probably easiest to replace it by running the following commands in Terminal:  cd ~/System rm -r hcde310a14 svn checkout https://subversion.assembla.com/svn/hcde310a14/ cd ~ ./getHW.sh  ./getHW.sh 1  (the first getHW.sh is necessary to get the lecture files back, the second should get hw1)
+from: Perry Lin Meas
+comment: It works! Thank you
+from: Sean Munson
+post: If you're using VirtualBox (rather than VMWare Workstation), installing the VirtualBox Guest Additions improves performance, by quite a bit on some machines. The process is at http://www.tomshardware.com/faq/id-1957309/install-virtualbox-guest-additions-linux-mint.html  (If you are using Workstation or Fusion, the virtual machine image was distributed with the equivalent VMWare Tools already installed)
+from: Perry Lin Meas
+comment: Hi Sean, can I get the sudo password again to reinstall the guest additions?
+from: Sean Munson
+comment: it's hcde310
+from: Kyle Nesburg
+post: I'm not getting the option to "Update to HEAD" under Team in Eclipse when right-clicking on the lectures project, only Apply path... or Share project... . Is there a work-around to receive the supplement 2 materials? Thanks!
+from: Chia-Fang Chung
+comment: Hi Kyle, we noticed that there is a SVN problem so we changed the update procedure. Please follow this post to update the files (supplement materials will be inside lectures). https://canvas.uw.edu/courses/916351/discussion_topics/2293408
+from: Kyle Nesburg
+comment: Ah, missed this. Thank you!
+from: Sean Munson
+post: Consider attending the Shobe Prize info session: Wednesday, October 22, 2014, 2-3 p.m, UW Startup Hall, 1100 NE Campus Parkway.
+from: Yoanna Dosouto
+post: Hi guys, if you are still having some issues with performance in your Virtual Machine (I had it out of debug mode already) you may want to increase the number of processors you are using, I increased mine to 4 and is working beautifully.
+from: Jessica Bao
+comment: I can't change mine. It's grey.
+from: Yoanna Dosouto
+comment: You may want to check the specks of your computer and see what you actually have.
+from: Yoanna Dosouto
+comment: Close your virtual machine, then go to vm settings in vmware and try to change it. You are provably trying to change the processor when the vm is in pause, you have to turn it down first. Best
+from: Xiaochen Yu
+post: So the thing is that I shut down my VMware Workstation and restarted it again right after. When I opened Eclipse, the left side bar became empty without the homework, lecture or any other lists expected. Then I tried to open hw0, and it worked. Could anyone help me to fix it to allow the folders to pop up?
+from: Danny Cohen
+comment: Actually never mind it looks like you are in the right window... Hmm
+from: Danny Cohen
+comment: But it is weird that your file location is super long
+from: Xiaochen Yu
+comment: Yeah...it is...I tried to modify several times.
+from: Xiaochen Yu
+comment: oh that location is where hw1 is
+from: Chia-Fang Chung
+comment: Hi, you can try to restart Eclipse, sometimes it doesn't read the metadata correctly and restart might help.  The other thing is to check whether those files are still in your file system, such as your Homework should be in /home/me/Homeworks, lectures should be in home/me/System/hcde310a14/lectures, and solutions should be in home/me/System/hcde310a14/solutions.  If they are still there, we can try to import them back. (Right click on the package explorer -> import -> Existing project into workspace). I can also help with that if you can drop by my office (423D) sometime tomorrow. Let me know if you plan to come so I won't leave my desk though.
+from: Xiaochen Yu
+comment: Thanks! Will try!
+from: Xiaochen Yu
+comment: I just tried to restart and it worked! Thanks!
+from: Perry Lin Meas
+post: Anyone still having issues with video memory affecting your computer's performance when running the virtual machine?
+from: Justin Woodum
+comment: On what OS?
+from: Perry Lin Meas
+comment: windows 7 home
+from: Justin Woodum
+comment: I have the same OS. If you haven't forced VMWare out of debug mode, try that. There are directions (also by me) in one of the earlier threads Dr. Munson started.
+from: Autumn Grassel
+post: "c. Print the contents of s starting from the 9th character" -- Does this mean starting from the 9th character and wrapping back around to the beginning, or just from the 9th char to the last char?
+from: Sean Munson
+comment: Just from the 9th through the end
+from: Autumn Grassel
+comment: thanks!
+from: Nicole Tilly
+post: Ok, I've been having some major computer issues (laptop died, sharing another comp with someone for now) so I'm way behind with all this HW0/setting up virtual environment stuff. Finally got VMware downloaded and the USB stick yesterday, but VMWare keeps telling me "Error while powering on: the file specified is not a virtual disk." Is this because my disk file is corrupt? I'm attempting to re-download the disk image atm but since it's taking a while, has anyone else encountered this issue and found the problem to be something else? Thanks!
+from: Sean Munson
+comment: Hi Nicole - how are you opening VMWare and the file? That might help us troubleshoot.
+from: Nicole Tilly
+comment: Thanks for the quick response! I have VMWare Player open and I click on "Open a virtual machine." From there, I open my unzipped folder hcde310a14 and there is one file available to click on: hcde310a14.vmx. I click on that and it looks like VMware at least recognizes that I'm trying to use Linux (image attached). But then when I press play it gives me the error message I wrote about above.
+from: Sean Munson
+comment: Hi - I *think* you've been affected by some Windows VMWare incompatibility. If you download VMWare Workstation 11 (https://communities.vmware.com/community/vmtn/workstation/vmware-workstation-technology-preview-2014 and the license key is M50AC-J034J-08L8A-03ARM-3D14A), and then open the image using that, I think it will work for you.
+from: Jessica Bao
+post: I'm just wondering if the second lecture slide is updated on the canvas~Thanks~!
+from: Sean Munson
+comment: Sorry about that - uploaded now https://canvas.uw.edu/courses/916351/files/28643595/download
+from: Jessica Bao
+comment: Thanks~!
+from: Sean Munson
+post: If you've been waiting on an add code, you should have received it this morning -- please let me know if not!
+from: Sean Munson
+post: Because of the SVN issues, we've slightly changed our process for distributing lectures and solutions - you can update the scripts we use for that by typing the following lines in terminal:  cd ~/System git pull   (this may open a window, just type control-X)  cd ~  After that any time you run ./getHW.sh, it will update lectures and solutions (but you may still have to right click the folder and select "Refresh" in Eclipse). Thanks to Korn and Mia for helping us catch this problem early.
+from: Candelario Peraza
+post: 3/4 way downloading and download stopped:(  because the link gave out...
+from: Chia-Fang Chung
+comment: Hi Candelario, sorry for the frustration. I'll be in my office (Sieg 423D) from 10am tomorrow if you want to copy the files from usb. Just let me know when you plan to come so I won't miss you.
+from: Nitaya Munkhong
+comment: The same thing happened to me :( Chia-Fang Chung Will you be in your office at 11:30?
+from: Chia-Fang Chung
+comment: Hi Nitaya, Yes I'll be there. Let's copy the files to your machine then?
+from: Yoanna Dosouto
+comment: This link to the files is working: https://drive.google.com/folderview?id=0B3NHAFY3OrsHN0ZfU0dGUUFkUEU&usp=sharing Best
+from: Natalee Ouzts
+comment: Chia-Fang Chung, can I come in also? I had the same thing happen to me.
+from: Chia-Fang Chung
+comment: Sure :-)
+from: Sami West
+post: It's asking me for my login and i'm not sure what it is. Help?
+from: Sean Munson
+comment: username: me; password: hcde310
+from: Sami West
+comment: thanks!
+from: Sean Munson
+post: Hi all. The Dropbox keeps cutting of our link (well below the bandwidth limitations of the account, sorry -- this was unexpected), so if you haven't been able to get a working copy of the virtual machine, please come by Sieg 423 after 10a and Christina can help you get it installed, or we will work with you in class.
+from: Nitaya Munkhong
+post: I have tried downloading the zip for Linux Mint which I was unable to extract  (said it was corrupted), and tried downloading the files individually which failed when downloading hcde310a14-disk1.vmdk. Can anyone help?
+from: Yoanna Dosouto
+comment: Hi Nitaya Munkhong I posted a few days ago a link to the virtual machine through drive. If you scroll down you will see it. I downloaded and installed it from there into my computer, that should work for you. Best
+from: Yoanna Dosouto
+comment: Here you have it https://drive.google.com/folderview?id=0B3NHAFY3OrsHN0ZfU0dGUUFkUEU&usp=sharing
+from: Sean Munson
+post: Hi Windows users -- sorry for the trouble today, but we've found a workaround.   Download Workstation 11 (the technology preview) from https://communities.vmware.com/community/vmtn/workstation/vmware-workstation-technology-preview-2014  This should be freely available until January 2015, at which point it will go in the store and you can get a "free" license for a year.
+from: Justin Woodum
+comment: SUCCESS on Windows 7 64-bit! It runs VERY slow (so slow you can't see what you type), but it technically works. The trick is to (1) clicks Ok to everything Windows warns about and (2) wait until you see a desktop before doing anything (takes ~4 minutes for me).  Step-by-step of my process if anyone needs it:  Used the non-zipped version of the class files (waited for it in class) so did not have to unzip.  Had to register for a free VMWare account.  Used the physical address for the HCDE department as my company (mandatory) taken from http://www.hcde.washington.edu/contact-us  3960 Benton Lane NE University of Washington Seattle, WA 98195   Downloaded the File where Information says "Vmware Workstation Technical Preview July 2014 for Windows Product installation including VMware Tools for Windows Operating Systems."  Took ~10 minutes to download.  Installed.  Had to uninstall the VMWare player I installed while in class.  Installer asked 3 times if I wanted to allow installation. Said yes every time.  Asked me to enter Installation Key. Said Skip.  Installation took ~5 minutes.  Started the VMPlayer.  Loaded and played the virtual machine (.vmdk file) into the player.  Alert popped up: "Binary translation is incompatible with long mode on this platform. Long mode will be disabled in this virtual environment and applications requiring long mode will not function properly as a result. See http://vmware.com/info?id=152 for more details."  I clicked Ok.  Alert popped up: "You are running this virtual machine with debugging enabled. Debugging performs extra error checking to help diagnose problems, but it also lowers performance."  I clicked Ok.  Alert popped up: "This virtual machine might have been moved or copied. In order to configure certain management and networking features, VMware Player needs to know if this virtual machine was moved or copied. If you don't know, answer "I Copied It"."  I clicked "I copied it".  Windows only shows a green graphics in the middle.   I clicked ALT-TAB and discovered there were 2 windows open on top of each other (maybe it opens 2 windows always...).  It took ~2 minutes to load.  Finally, I landed n a graphical login screen (similar to a Windows login screen, not the text login).  I entered my name.   It prompted me to enter a password but I switched windows to type this documentation. When I returned, it had logged me into a desktop. Maybe typing in my text editor program also typed it into VMWare? Oops.  Inside the desktop, it runs too slow to use.  At the top of the VMPlayer, is a icon that looks like a "Pause" symbol. Clicked that and under, clicked "Restart Guest".  Again, only agreen icon appeared. I clicked ALT-TAB to see Linux Mint starting.  ~5 minutes later, back in the desktop without having to login this time.  Opened Terminal.  Entered Python program successfully.  It runs annoyingly slow but works.
+from: Sean Munson
+comment: The VM is set up to auto-login after a few seconds, but the username is "me" and password is "hcde310"  Turning off debug mode might improve the performance; there's a thread on VMWare's site: https://communities.vmware.com/thread/484066
+from: Justin Woodum
+comment: I found directions that worked on a link I found via the link above: https://communities.vmware.com/thread/448058 (again, my computer has a 64-bit processor so files were in a "x64" folder. Startup time is about the same but the desktop and terminal run much faster. This will work. Thanks!  Here's what I did:  Rename C:\Program Files (x86)\VMware\VMware Player\x64\vmware-vmx-debug.exe to C:\Program Files (x86)\VMware\VMware Player\x64\vmware-vmx-debug.exe_ORIGINAL  Rename C:\Program Files (x86)\VMware\VMware Player\vmware-remotemks-debug.exe to C:\Program Files (x86)\VMware\VMware Player\vmware-remotemks-debug.exe_ORIGINAL  Copy and rename C:\Program Files (x86)\VMware\VMware Player\x64\vmware-vmx.exe to C:\Program Files (x86)\VMware\VMware Player\x64\vmware-vmx-debug.exe  Copy and rename C:\Program Files (x86)\VMware\VMware Player\x64\vmware-remotemks.exe to C:\Program Files (x86)\VMware\VMware Player\x64\vmware-remotemks-debug.exe
+from: Sean Munson
+comment: Thanks for sharing the trouble -- and sharing the workaround. Hopefully it will save others some trouble
+from: Justin Woodum
+comment: Fail. The version of the VMware I downloaded above prompted me for a license or to use a 30 day trial. Since our class will last longer than 30 days, that won't help. My current plan is to install my own web server and Python instances, rather than keep working with VMware.
+from: Justin Woodum
+comment: Oi....except that I need Linux running probably?
+from: Justin Woodum
+comment: Maybe I will subscribe to Digital Ocean or Linode, use their pre-made images to install Linux and then install Python, if necessary.
+from: Sean Munson
+comment: Linux isn't necessary. We use the virtual machine because we've had horrible problems in past years with students running different Python versions with different installs.  If you are using workstation 11, the download page has a license key good through January 2015.  If you go the non VMware route, the main things are to stick with Python 2.7.x (anything in 2.7 should be fine, we use 2.7.4 when we write sample code, write homeworkers, and grade homeworks). You'll also simplify your life greatly if you install eclipse (or another IDE) that will sync with an SVN repository.
+from: Justin Woodum
+comment: Had already uninstalled the VMware requiring the key. Re-installed and used key successfully. I assume this can be used with an already existing installation, too. For reference, key is M50AC-J034J-08L8A-03ARM-3D14A (expires January 15, 2015). Working now.
+from: Tristan Shi
+post: I decided to to install everything natively on my Mac. Can someone tell me the repo so that I can get "first_program.py"?
+from: Chia-Fang Chung
+comment: Hi Tristan, you should be able to use this url to get homework files: https://subversion.assembla.com/svn/hcde310a14/homeworks/
+from: Anne Zheng
+post: Why do I have lecture 5 instead of lecture 2? As the image attached, does this means that I finished part7 in HW0? Thanks!
+from: Chia-Fang Chung
+comment: Yes you did. The s2 means you got lecture 2 and the 5 is just the version of it.
+from: Anne Zheng
+comment: Thank you!
+from: Chip Connor
+comment: I had this question too! Thanks for the reassurance!
+from: Max Schreiber
+post: So I got everything up and running on my laptop. However, my laptop is rocking some pretty old specs and things are running really slowly and I thought I would ask if we could just install eclipse and pydev and cut VM out of the equation.
+from: Sean Munson
+comment: That's fine - you'll also want to set up SVN to check out the homework and lecture code (you can download the files directly, but SVN is easier in the long run), and try to stay with python 2.7 (otherwise some of the examples / assignments may fail or behave differently)
+from: Samuel Sun
+post: Hello everyone! It seems the program system runs pretty slow on Mac since the memory space is just 512 MB. Here is my way to change the memory space: first, you need to shut down your Mint System, then click the virtual machine button on the top bar, find and open the Settings menu under it, then you can find the memory settings in here and change that!
+from: Sabrina Weschler
+post: I am having trouble finding the How To document "Unix commands." Does anyone know where it is?
+from: Sean Munson
+comment: Sorry!  https://canvas.uw.edu/courses/916351/files/28551661/ (Canvas --> Files --> Documentation)
+from: Sabrina Weschler
+comment: Thank you!
+from: Jess Landquist
+comment: This also helped me: http://en.m.wikipedia.org/wiki/List_of_Unix_commands
+from: Kendall McGinnis Avery
+post: "In Eclipse, on the left side, right-click on the "lectures" project, select Team > Update." This left side doesn't seem to exist...help?
+from: Sean Munson
+comment: Hi Kendall, what does eclipse look like when it loads for you?  There should be a pydev package explorer window open on the left. Thanks.
+from: Kendall McGinnis Avery
+comment: Found it, my minimized view hid some of the screens but it worked after I closed them out!
+from: Yoanna Dosouto
+post: Hi guys, here you have a link to drive for those of you who failed to copy or copied a corrupted version of the file. https://drive.google.com/folderview?id=0B3NHAFY3OrsHN0ZfU0dGUUFkUEU&usp=sharing
+from: Lisa Hu
+comment: Thank you! :)
+from: Sami West
+post: Can someone help me out with downloading VMWare Fusion? I'm not sure what I'm doing wrong.
+from: Yoanna Dosouto
+comment: What do you have? Mac or Windows?
+from: Sami West
+comment: Mac
+from: Yoanna Dosouto
+comment: are you in the onthehub website?
+from: Sami West
+comment: Yeah, I already "purchased" and pressed download. I just need help with the installation part of it I guess. It's telling me "no operating system found."
+from: Yoanna Dosouto
+comment: I have a windows computer so I guess those steps are different, sorry I can't help you with that. Good luck, hopefully a mac user will help you soon.
+from: Sean Munson
+comment: Hi Sami - can you post a screenshot of the error message or describe where in the process it is giving you the error? Thanks!
+from: Sami West
+comment: and then after it shows this, something will pop up and say no operating system found. i'm so confused!
+from: Sean Munson
+comment: Hrm. What happens if you close this and start the virtual machine by double clicking on the .vmx file (which was in the zip file)?
+from: Sami West
+comment: Oh, it works now! haha. Thanks. :)
+from: Sean Munson
+comment: Hooray :)
+from: Chia-Fang Chung
+post: If you are still unable to get the file copied, email us and let us know whether you are using Mac or Windows, we'll try to pass the usb around.
